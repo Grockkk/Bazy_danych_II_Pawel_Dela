@@ -1,0 +1,59 @@
+
+--1. Wyznacz liczbę budynków (tabela: popp, atrybut: f_codedesc, reprezentowane, jako punkty)
+--położonych w odległości mniejszej niż 1000 m od głównych rzek. Budynki spełniające to
+--kryterium zapisz do osobnej tabeli tableB.
+
+CREATE TABLE tableB AS(
+SELECT COUNT(popp.f_codedesc) AS LiczbaBudynkow FROM popp , majrivers 
+	WHERE popp.f_codedesc = 'Building' 
+	AND ST_Contains(ST_Buffer(majrivers.geom,1000),popp.geom )
+);
+SELECT * FROM tableB;
+
+
+--2. Utwórz tabelę o nazwie airportsNew. Z tabeli airports do zaimportuj nazwy lotnisk, ich
+--geometrię, a także atrybut elev, reprezentujący wysokość n.p.m.
+CREATE TABLE  airportsNew AS(
+SELECT name , geom , elev FROM airports
+);
+
+SELECT * FROM airportsNew
+
+--a) Znajdź lotnisko, które położone jest najbardziej na zachód i najbardziej na wschód
+SELECT name FROM airports ORDER BY ST_XMin(geom) ASC LIMIT 1;
+
+SELECT name FROM airports ORDER BY ST_XMax(geom) DESC LIMIT 1;
+
+
+--b)Do tabeli airportsNew dodaj nowy obiekt - lotnisko, które położone jest w punkcie
+--środkowym drogi pomiędzy lotniskami znalezionymi w punkcie a. Lotnisko nazwij airportB.
+--Wysokość n.p.m. przyjmij dowolną.
+
+INSERT INTO airportsNew VALUES ('airportB', (SELECT ST_Centroid
+(ST_ShortestLine(
+(SELECT geom FROM airportsNew WHERE name = 'ATKA'),
+(SELECT geom FROM airportsNew WHERE name = 'ANNETTE ISLAND')))), 650);
+SELECT * FROM airportsNew WHERE name = 'airportB'
+
+--3. Wyznacz pole powierzchni obszaru, który oddalony jest mniej niż 1000 jednostek od najkrótszej
+--linii łączącej jezioro o nazwie ‘Iliamna Lake’ i lotnisko o nazwie „AMBLER"
+SELECT ST_Area(ST_Buffer(ST_ShortestLine(
+(SELECT geom FROM lakes WHERE names = 'Iliamna Lake'),
+(SELECT geom FROM airports WHERE name = 'AMBLER')),1000));
+
+
+--4. Napisz zapytanie, które zwróci sumaryczne pole powierzchni poligonów reprezentujących
+--poszczególne typy drzew znajdujących się na obszarze tundry i bagien (swamps)
+SELECT SUM(tundra.area_km2)+SUM(swamp.areakm2) AS SumArea , trees.vegdesc 
+FROM swamp , tundra , trees WHERE swamp.areakm2 IN 
+(SELECT swamp.areakm2 FROM swamp , trees WHERE ST_Contains(trees.geom,swamp.geom)) 
+AND
+tundra.area_km2 IN 
+(SELECT tundra.area_km2 FROM tundra,trees WHERE ST_Contains(trees.geom,tundra.geom))
+GROUP BY trees.vegdesc
+
+
+
+
+DROP TABLE tableb
+DROP TABLE airportsnew
