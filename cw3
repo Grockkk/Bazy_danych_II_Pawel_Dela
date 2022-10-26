@@ -1,0 +1,15 @@
+
+
+
+SELECT t2018_kar_buildings.gid FROM t2018_kar_buildings,t2019_kar_buildings WHERE ST_Equals(t2018_kar_buildings.geom,t2019_kar_buildings.geom) ASC
+
+
+
+
+
+
+
+SELECT * FROM t2019_kar_buildings
+-- 4326
+SELECT * FROM t2018_kar_poi_table
+SELECT * FROM t2019_kar_poi_table
