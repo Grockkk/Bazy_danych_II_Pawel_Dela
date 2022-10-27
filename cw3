@@ -57,7 +57,11 @@ SELECT ST_AsText(input_points.geom) AS geom_point FROM input_points
 --z punktów w tabeli ‘input_points’. Wykorzystaj tabelę T2019_STREET_NODE. Dokonaj
 --reprojekcji geometrii, aby była zgodna z resztą tabel.
 
+UPDATE input_points 
+SET geom = ST_SetSRID(t2019_kar_street_node.geom,3068) FROM t2019_kar_street_node
 
+SELECT lat,lon,t2019_kar_street_node.geom FROM t2019_kar_street_node , input_points
+WHERE ST_Contains(t2019_kar_street_node.geom,ST_Buffer(ST_MakeLine((SELECT geom FROM input_points WHERE name = 'X'),(SELECT geom FROM input_points WHERE name = 'Y')),200))
 
 --7 Policz jak wiele sklepów sportowych (‘Sporting Goods Store’ - tabela POIs) znajduje się
 --w odległości 300 m od parków (LAND_USE_A).
@@ -66,15 +70,37 @@ SELECT COUNT(t2019_kar_poi_table.type) AS sum FROM t2019_kar_poi_table,t2019_kar
 	AND ST_Contains(ST_Buffer(t2019_kar_land_use_a.geom,300),t2019_kar_poi_table.geom)
 
 
-SELECT * FROM t2019_kar_poi_table WHERE type = 'Sporting Goods Store'
-SELECT * FROM t2019_kar_land_use_a WHERE type = 'Park (City/County)'
 
--- 8Znajdź punkty przecięcia torów kolejowych (RAILWAYS) z ciekami (WATER_LINES). Zapisz
+-- 8 Znajdź punkty przecięcia torów kolejowych (RAILWAYS) z ciekami (WATER_LINES). Zapisz
 --znalezioną geometrię do osobnej tabeli o nazwie ‘T2019_KAR_BRIDGES’
+
+
 CREATE TABLE T2019_KAR_BRIDGES AS(
 SELECT ST_Intersection(t2019_kar_water_lines.geom , t2019_kar_railways.geom) FROM t2019_kar_water_lines, t2019_kar_railways
 );
-SELECT * FROM T2019_KAR_BRIDGES;
+
+SELECT * FROM T2019_KAR_BRIDGES
+
+DROP TABLE T2019_KAR_BRIDGES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 SELECT * FROM t2019_kar_water_lines
@@ -83,3 +109,8 @@ SELECT * FROM t2019_kar_buildings ORDER BY polygon_id
 -- 4326
 SELECT * FROM t2018_kar_poi_table
 SELECT * FROM t2019_kar_poi_table
+
+
+
+---------------------------------------------------------------------------------
+
