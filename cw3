@@ -2,18 +2,23 @@
 --1 Zaimportuj następujące pliki shapefile do bazy, przyjmij wszędzie układ WGS84:
 --Znajdź budynki, które zostały wybudowane lub wyremontowane na przestrzeni roku (zmiana
 --pomiędzy 2018 a 2019)
+CREATE TABLE buildingsNew AS(
+SELECT DISTINCT T2019_KAR_BUILDINGS.* 
+FROM T2019_KAR_BUILDINGS LEFT JOIN T2018_KAR_BUILDINGS ON T2019_KAR_BUILDINGS.geom = T2018_KAR_BUILDINGS.geom
+WHERE T2018_KAR_BUILDINGS.geom IS NULL
+);
 
-SELECT t2018_kar_buildings.polygon_id AS id, t2018_kar_buildings.geom AS geometry
-FROM t2018_kar_buildings,t2019_kar_buildings 
-WHERE ST_Equals(t2018_kar_buildings.geom,t2019_kar_buildings.geom) = False
-GROUP BY t2018_kar_buildings.gid
-ORDER BY id  
 
+SELECT geom FROM buildingsNew
+DROP TABLE buildingsNew
 --2 Znajdź ile nowych POI pojawiło się w promieniu 500 m od wyremontowanych lub
 --wybudowanych budynków, które znalezione zostały w zadaniu 1. Policz je wg ich kategorii.
 
-
-
+SELECT T2019_KAR_POI_TABLE.type AS typ_obiektu ,COUNT(DISTINCT T2019_KAR_POI_TABLE.*) AS liczba_obiektow
+FROM buildingsNew,T2019_KAR_POI_TABLE LEFT JOIN T2018_KAR_POI_TABLE ON T2019_KAR_POI_TABLE.geom = T2018_KAR_POI_TABLE.geom
+WHERE T2018_KAR_POI_TABLE.geom IS NULL
+AND ST_Intersects(ST_Buffer(buildingsNew.geom,500),T2019_KAR_POI_TABLE.geom)
+GROUP BY T2019_KAR_POI_TABLE.type
 
 --3 Utwórz nową tabelę o nazwie ‘streets_reprojected’, która zawierać będzie dane z tabeli
 --T2019_KAR_STREETS przetransformowane do układu współrzędnych DHDN.Berlin/Cassini (3068).
@@ -57,11 +62,9 @@ SELECT ST_AsText(input_points.geom) AS geom_point FROM input_points
 --z punktów w tabeli ‘input_points’. Wykorzystaj tabelę T2019_STREET_NODE. Dokonaj
 --reprojekcji geometrii, aby była zgodna z resztą tabel.
 
-UPDATE input_points 
-SET geom = ST_SetSRID(t2019_kar_street_node.geom,3068) FROM t2019_kar_street_node
+SELECT * FROM t2019_kar_street_node
+WHERE ST_Contains(ST_Buffer((SELECT ST_MakeLine(geom) FROM input_points),200),ST_SetSRID(geom,3068))
 
-SELECT lat,lon,t2019_kar_street_node.geom FROM t2019_kar_street_node , input_points
-WHERE ST_Contains(t2019_kar_street_node.geom,ST_Buffer(ST_MakeLine((SELECT geom FROM input_points WHERE name = 'X'),(SELECT geom FROM input_points WHERE name = 'Y')),200))
 
 --7 Policz jak wiele sklepów sportowych (‘Sporting Goods Store’ - tabela POIs) znajduje się
 --w odległości 300 m od parków (LAND_USE_A).
@@ -77,6 +80,7 @@ SELECT COUNT(t2019_kar_poi_table.type) AS sum FROM t2019_kar_poi_table,t2019_kar
 
 CREATE TABLE T2019_KAR_BRIDGES AS(
 SELECT ST_Intersection(t2019_kar_water_lines.geom , t2019_kar_railways.geom) FROM t2019_kar_water_lines, t2019_kar_railways
+	WHERE ST_Intersects(t2019_kar_water_lines.geom,t2019_kar_railways.geom)
 );
 
 SELECT * FROM T2019_KAR_BRIDGES
