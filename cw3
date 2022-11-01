@@ -26,7 +26,6 @@ CREATE TABLE  streets_reprojected AS(
 SELECT gid,link_id,st_name,ref_in_id,nref_in_id,func_class,speed_cat,fr_speed_l,to_speed_l,dir_travel,ST_SetSRID(geom,3068) FROM T2019_KAR_STREETS
 );
 SELECT * FROM T2019_KAR_STREETS
---Pan mowił żeby uzyc ST_Transform ale to nie działa bo nie ma układu nadanego
 
 DROP TABLE streets_reprojected;
 
