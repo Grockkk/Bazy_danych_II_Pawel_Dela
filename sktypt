@@ -1,0 +1,86 @@
+
+--raster2pgsql.exe -s 27700 -N -32767 -t 100x100 -I -C -M -d "C:\Studia\Bazy danych\Bazy_danych_II_Pawel_Dela\ras250_gb\data\*.tif" rasters.uk_250k | psql -d raster -hlocalhost -U postgres -p 5432
+
+--2
+
+SELECT * FROM rasters.uk_250k;
+
+--3
+CREATE INDEX idx_intersects_rast_gist ON rasters.uk_250k
+USING gist (ST_ConvexHull(rast));
+
+alter table rasters.uk_250k
+add column rid SERIAL PRIMARY KEY;
+
+SELECT AddRasterConstraints('rasters'::name,
+'uk_250k'::name,'rast'::name);
+
+CREATE TABLE rasters.union AS SELECT ST_UNION(rastry.rast)
+FROM rasters.uk_250k AS uk
+
+
+--6
+SELECT * FROM rasters.national_parks
+
+
+CREATE TABLE rasters.uk_lake_district AS 
+SELECT ST_Clip(a.rast, b.geom, true) AS rast
+FROM  rasters.uk_250k AS a, rasters.national_parks AS b
+WHERE ST_Intersects(a.rast, b.geom) AND b.id = '1';
+
+CREATE TABLE GEOtiff_1 AS
+SELECT lo_from_bytea(0,
+ST_AsGDALRaster(ST_Union(rast), 'GTiff', ARRAY['COMPRESS=DEFLATE',
+'PREDICTOR=2', 'PZLEVEL=9'])
+) AS plik
+FROM rasters.uk_lake_district;
+
+SELECT lo_export(plik, 'C:\Studia\Bazy danych\Bazy_danych_II_Pawel_Dela\GEOtiff_1.tiff')
+FROM GEOtiff_1;
+
+
+--raster2pgsql.exe -s 32630 -N -32767 -t 128x128 -I -C -M -d "C:\Studia\Bazy danych\Bazy_danych_II_Pawel_Dela\B03\*.jp2" rasters.sentinel3 | psql -d raster -hlocalhost -U postgres -p 5432
+
+--raster2pgsql.exe -s 32630 -N -32767 -t 128x128 -I -C -M -d "C:\Studia\Bazy danych\Bazy_danych_II_Pawel_Dela\B08\*.jp2" rasters.sentinel8 | psql -d raster -hlocalhost -U postgres -p 5432
+
+--10
+CREATE TABLE rasters.ld_ndwi AS
+WITH r1 AS (
+(SELECT ST_Union(ST_Clip(a.rast, ST_Transform(b.geom, 32630), true)) AS rast
+FROM rasters.sentinel3 AS a, rasters.national_parks AS b
+WHERE ST_Intersects(a.rast, ST_Transform(b.geom, 32630)) AND b.id = 1))
+,
+r2 AS (
+(SELECT ST_Union(ST_Clip(a.rast, ST_Transform(b.geom, 32630), true)) AS rast
+FROM rasters.sentinel8 AS a, rasters.national_parks AS b
+WHERE ST_Intersects(a.rast, ST_Transform(b.geom, 32630)) AND b.id = 1))
+
+SELECT ST_MapAlgebra(r1.rast, r2.rast, '([rast1.val]-[rast2.val])/([rast1.val]+[rast2.val])::float', '32BF') AS rast
+FROM r1, r2;
+
+
+--NDWI = (G-NIR)/(G+NIR), gdzie G to kanał 3 , NIR to kanał 8
+
+
+CREATE INDEX idx_ld_rast_gist ON rasters.ld_ndwi
+USING gist(ST_ConvexHull(rast));
+
+
+SELECT AddRasterConstraints('rasters'::name, 'ld_ndwi'::name, 'rast'::name);
+
+-- zapisanie jako tiff
+CREATE TABLE GEOtiff_2 AS
+SELECT lo_from_bytea(0,
+ST_AsGDALRaster(ST_Union(rast), 'GTiff', ARRAY['COMPRESS=DEFLATE',
+'PREDICTOR=2', 'PZLEVEL=9'])
+) AS plik
+FROM rasters.ld_ndwi;
+
+SELECT lo_export(plik, 'C:\Studia\Bazy danych\Bazy_danych_II_Pawel_Dela\GEOtiff_2.tiff')
+FROM GEOtiff_2;
+
+DROP TABLE rasters.ld_ndwi
+DROP TABLE GEOtiff_2
+
+
+
