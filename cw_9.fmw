@@ -2,35 +2,34 @@
 #! <WORKSPACE
 #    Command line to run this workspace:
 #        "C:\Program Files\FME\fme.exe" "C:\Studia\Bazy danych\Bazy_danych_II_Pawel_Dela\cw_9.fmw"
-#          --Email "pdela@steudent.agh.edu.pl"
-#          --Powiat "krakowski"
-#          --hasło "********"
+#          --Email "dela.kontakt@gmail.com"
+#          --Powiat "powiat Warszawa"
+#          --pass "********"
 #          --email_klienta "dela.kontakt@gmail.com"
-#          --zakrycie_chmur "1"
-#          --data_początkowa "20230104000000"
-#          --data_koncowa "20230126000000"
+#          --zakrycie_chmur "20"
+#          --data_początkowa "20220501000000"
+#          --data_koncowa "20221216000000"
 #          --SourceDataset_SHAPEFILE "$(FME_MF_DIR_USERTYPED)powiaty.shp"
-#          --DestDataset_TIFF "C:\Studia\Bazy danych\Bazy_danych_II_Pawel_Dela"
 #          --FME_LAUNCH_VIEWER_APP "YES"
 #    
-#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
+#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
 #!   ARCGIS_COMPATIBILITY="ARCGIS_AUTO"
 #!   ATTR_TYPE_ENCODING="SDF"
-#!   BEGIN_PYTHON="import&lt;space&gt;smtplib&lt;comma&gt;&lt;space&gt;ssl&lt;lf&gt;&lt;lf&gt;port&lt;space&gt;=&lt;space&gt;465&lt;space&gt;&lt;space&gt;#&lt;space&gt;For&lt;space&gt;SSL&lt;lf&gt;password&lt;space&gt;=&lt;space&gt;$(hasło)&lt;lf&gt;#&lt;space&gt;Create&lt;space&gt;a&lt;space&gt;secure&lt;space&gt;SSL&lt;space&gt;context&lt;lf&gt;context&lt;space&gt;=&lt;space&gt;ssl.create_default_context&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;with&lt;space&gt;smtplib.SMTP_SSL&lt;openparen&gt;&lt;quote&gt;smtp.gmail.com&lt;quote&gt;&lt;comma&gt;&lt;space&gt;port&lt;comma&gt;&lt;space&gt;context=context&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;server:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;server.login&lt;openparen&gt;&lt;dollar&gt;&lt;openparen&gt;email&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;password&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;apos&gt;hi&lt;apos&gt;&lt;lf&gt;"
+#!   BEGIN_PYTHON="&lt;lf&gt;import&lt;space&gt;smtplib&lt;comma&gt;&lt;space&gt;ssl&lt;lf&gt;from&lt;space&gt;unidecode&lt;space&gt;import&lt;space&gt;unidecode&lt;lf&gt;&lt;lf&gt;&lt;lf&gt;def&lt;space&gt;sender&lt;openparen&gt;email&lt;comma&gt;&lt;space&gt;haslo&lt;comma&gt;&lt;space&gt;email_klienta&lt;comma&gt;&lt;space&gt;powiat&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;message&lt;space&gt;=&lt;space&gt;f&lt;quote&gt;Subject:&lt;space&gt;przetwarzanie&lt;space&gt;danych&lt;space&gt;dla&lt;space&gt;powiatu&lt;space&gt;&lt;opencurly&gt;powiat&lt;closecurly&gt;&lt;backslash&gt;n&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;f&lt;quote&gt;Drogi&lt;space&gt;uzytkowniku&lt;space&gt;&lt;opencurly&gt;email_klienta&lt;closecurly&gt;&lt;comma&gt;&lt;space&gt;rozpoczeto&lt;space&gt;przetwarzanie&lt;space&gt;danych&lt;space&gt;NDVI&lt;space&gt;dla&lt;space&gt;powiatu&lt;space&gt;&lt;opencurly&gt;powiat&lt;closecurly&gt;&lt;quote&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;server&lt;space&gt;=&lt;space&gt;smtplib.SMTP_SSL&lt;openparen&gt;&lt;apos&gt;smtp.googlemail.com&lt;apos&gt;&lt;comma&gt;&lt;space&gt;465&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;server.login&lt;openparen&gt;email&lt;comma&gt;&lt;space&gt;haslo&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;server.sendmail&lt;openparen&gt;email&lt;comma&gt;&lt;space&gt;email_klienta&lt;comma&gt;&lt;space&gt;message&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;lf&gt;def&lt;space&gt;main&lt;openparen&gt;&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;sender&lt;openparen&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;Email&lt;apos&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;pass&lt;apos&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;email_klienta&lt;apos&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;Powiat&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;if&lt;space&gt;__name__&lt;space&gt;==&lt;space&gt;&lt;quote&gt;__main__&lt;quote&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;main&lt;openparen&gt;&lt;closeparen&gt;"
 #!   BEGIN_TCL=""
 #!   CATEGORY=""
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="4587.17 588.63"
-#!   DOC_TOP_LEFT="141.876 -1235.51"
-#!   END_PYTHON=""
+#!   DOC_EXTENTS="7121.57 1301.64"
+#!   DOC_TOP_LEFT="-633.132 -1695.39"
+#!   END_PYTHON="&lt;lf&gt;import&lt;space&gt;smtplib&lt;comma&gt;&lt;space&gt;ssl&lt;lf&gt;from&lt;space&gt;unidecode&lt;space&gt;import&lt;space&gt;unidecode&lt;lf&gt;&lt;lf&gt;def&lt;space&gt;sender&lt;openparen&gt;email&lt;comma&gt;&lt;space&gt;haslo&lt;comma&gt;&lt;space&gt;email_klienta&lt;comma&gt;&lt;space&gt;powiat&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;message&lt;space&gt;=&lt;space&gt;f&lt;quote&gt;Subject:&lt;space&gt;przetwarzanie&lt;space&gt;danych&lt;space&gt;dla&lt;space&gt;powiatu&lt;space&gt;&lt;opencurly&gt;powiat&lt;closecurly&gt;&lt;backslash&gt;n&lt;quote&gt;&lt;space&gt;&lt;backslash&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;f&lt;quote&gt;Drogi&lt;space&gt;uzytkowniku&lt;space&gt;&lt;opencurly&gt;email_klienta&lt;closecurly&gt;&lt;comma&gt;&lt;space&gt;zakonczono&lt;space&gt;przetwarzanie&lt;space&gt;danych&lt;space&gt;NDVI&lt;space&gt;dla&lt;space&gt;powiatu&lt;space&gt;&lt;opencurly&gt;powiat&lt;closecurly&gt;&lt;quote&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;server&lt;space&gt;=&lt;space&gt;smtplib.SMTP_SSL&lt;openparen&gt;&lt;apos&gt;smtp.googlemail.com&lt;apos&gt;&lt;comma&gt;&lt;space&gt;465&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;server.login&lt;openparen&gt;email&lt;comma&gt;&lt;space&gt;haslo&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;server.sendmail&lt;openparen&gt;email&lt;comma&gt;&lt;space&gt;email_klienta&lt;comma&gt;&lt;space&gt;message&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;lf&gt;def&lt;space&gt;main&lt;openparen&gt;&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;sender&lt;openparen&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;Email&lt;apos&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;pass&lt;apos&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;email_klienta&lt;apos&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;Powiat&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;if&lt;space&gt;__name__&lt;space&gt;==&lt;space&gt;&lt;quote&gt;__main__&lt;quote&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;main&lt;openparen&gt;&lt;closeparen&gt;"
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="22776"
 #!   FME_BULK_MODE_THRESHOLD="2000"
-#!   FME_DOCUMENT_GUID="8c8d85cd-04f5-4c38-9f34-58cf32da4bf8"
-#!   FME_DOCUMENT_PRIORGUID="b6281b01-4ce6-4fd6-9486-5678a1c55eb1"
+#!   FME_DOCUMENT_GUID="d3b30b9a-e6c2-4af0-9efa-5a4721aa7dbe"
+#!   FME_DOCUMENT_PRIORGUID="b6281b01-4ce6-4fd6-9486-5678a1c55eb1,8c8d85cd-04f5-4c38-9f34-58cf32da4bf8,8ffb827f-4593-4343-a4e0-db14a661d004,ab4c8e7f-381b-43ee-b56f-e98cf18c8829,b9ac8888-0bf1-47b8-89e1-92673bd12328"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_NAMES_ENCODING="UTF-8"
@@ -40,7 +39,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2022.2.1.0 (20221202 - Build 22776 - WIN64)"
-#!   LAST_SAVE_DATE="2023-01-04T12:42:43"
+#!   LAST_SAVE_DATE="2023-01-09T08:24:58"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -59,10 +58,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-640.631 -325.003"
+#!   VIEW_POSITION="1375.23 -330.272"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="100"
+#!   ZOOM_SCALE="115"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -118,66 +117,6 @@
 #! <METAFILE_PARAMETER
 #!   NAME="WRITER_DATASET_HINT"
 #!   VALUE="Specify a folder for the Esri Shapefile"
-#! />
-#! </DATASET>
-#! <DATASET
-#!   IS_SOURCE="false"
-#!   ROLE="WRITER"
-#!   FORMAT="TIFF"
-#!   DATASET="$(DestDataset_TIFF)"
-#!   KEYWORD="TIFF_1"
-#!   MULTI_GEOM_ALLOWED="true"
-#!   ATTR_MAX_LENGTH="64"
-#!   ATTR_CASE="ANY_FIRST_NONNUMERIC"
-#!   ALLOWED_FEAT_TYPES=""
-#!   WRITE_DEFS="true"
-#!   DEFLINE_TEMPLATE="tiff_world_file_generation $(_TIFF_WRITER_WORLD_FILE_GENERATION) tiff_create_tiled_files $(_TIFF_WRITER_CREATE_TILED_FILES) tiff_tile_size_x $(_TIFF_WRITER_TILE_SIZE_X) tiff_tile_size_y $(_TIFF_WRITER_TILE_SIZE_Y) tiff_compression_method $(_TIFF_WRITER_COMPRESSION_METHOD) tiff_jpeg_compression_level $(_TIFF_WRITER_JPEG_COMPRESSION_LEVEL) tiff_deflate_compression_level $(_TIFF_WRITER_DEFLATE_COMPRESSION_LEVEL) tiff_zstd_compression_level $(_TIFF_WRITER_ZSTD_COMPRESSION_LEVEL) tiff_tab_file_generation $(_TIFF_WRITER_TAB_FILE_GENERATION) tiff_number_of_bits_per_cell $(_TIFF_WRITER_NUMBER_OF_BITS_PER_CELL) tiff_enable_bigtiff $(_TIFF_WRITER_ENABLE_BIGTIFF) tiff_interleaving_type $(_TIFF_WRITER_INTERLEAVING_TYPE) tiff_photometric_interpretation $(_TIFF_WRITER_PHOTOMETRIC_INTERPRETATION) tiff_byte_order $(_TIFF_WRITER_BYTE_ORDER) tiff_calculate_minmax_tifftags $(_TIFF_WRITER_CALCULATE_MINMAX_TIFFTAGS) tiff_pyramid_num_levels $(_TIFF_WRITER_PYRAMID_NUM_LEVELS) tiff_pyramid_interpolation_type $(_TIFF_WRITER_PYRAMID_INTERPOLATION_TYPE) tiff_pyramid_tile_size $(_TIFF_WRITER_PYRAMID_TILE_SIZE)"
-#!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_basename char(50) fme_color char(50) fme_dataset char(50) fme_feature_type char(50) fme_fill_color char(50) fme_geometry char(50) fme_primary_axis float fme_rotation float fme_secondary_axis float fme_start_angle float fme_sweep_angle float fme_text_size float fme_text_string char(50) fme_type char(50) tiff_artist char(255) tiff_byte_order char(7) tiff_calculate_minmax_tifftags char(3) tiff_compression_method char(9) tiff_copyright char(255) tiff_create_tiled_files char(3) tiff_datetime datetime tiff_deflate_compression_level integer tiff_documentname char(255) tiff_enable_bigtiff char(3) tiff_hostcomputer char(255) tiff_imagedescription char(255) tiff_interleaving_type char(3) tiff_jpeg_compression_level decimal(5,0) tiff_maxsamplevalue integer tiff_minsamplevalue integer tiff_number_of_bits_per_cell decimal(1,0) tiff_photometric_interpretation char(10) tiff_resolutionunit decimal(1,0) tiff_software char(255) tiff_tab_file_generation char(3) tiff_tile_size_x integer tiff_tile_size_y integer tiff_type char(255) tiff_world_file_generation char(3) tiff_xresolution float tiff_yresolution float tiff_zstd_compression_level integer"
-#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP tiff_layer_group tiff_metadata_group%tiff_compression_group%tiff_tile_group%tiff_generate_pyramids%tiff_advanced_group Raster&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP tiff_metadata_group tiff_world_file_generation%tiff_tab_file_generation Metadata Files&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP tiff_tile_group tiff_create_tiled_files%tiff_tile_size_x%tiff_tile_size_y Tile&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP tiff_compression_group tiff_compression_method%tiff_jpeg_compression_level%tiff_deflate_compression_level%tiff_zstd_compression_level Compression&quot; &quot;&quot; &quot;GUI ACTIVEDISCLOSUREGROUP tiff_generate_pyramids tiff_pyramid_num_levels%tiff_pyramid_interpolation_type%tiff_pyramid_tile_size Generate Pyramids&quot; no &quot;GUI OPTIONAL DISCLOSUREGROUP tiff_advanced_group tiff_byte_order%tiff_calculate_minmax_tifftags%tiff_enable_bigtiff%tiff_interleaving_type%tiff_number_of_bits_per_cell%tiff_photometric_interpretation Advanced&quot; &quot;&quot; &quot;GUI CHOICE tiff_world_file_generation yes%no Generate World File&quot; yes &quot;GUI CHOICE tiff_create_tiled_files yes%no Create Tiled Files&quot; no &quot;GUI OPTIONAL INTEGER tiff_tile_size_x Number of Columns per Tile&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER tiff_tile_size_y Number of Rows per Tile&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP tiff_compression_method JPEG,jpeg,tiff_deflate_compression_level,tiff_zstd_compression_level%DEFLATE,deflate,tiff_jpeg_compression_level,tiff_zstd_compression_level%LZW,lzw,tiff_jpeg_compression_level,tiff_deflate_compression_level,tiff_zstd_compression_level%ZSTD,zstd,tiff_jpeg_compression_level,tiff_deflate_compression_level%Pack&lt;space&gt;Bits,pack-bits,tiff_jpeg_compression_level,tiff_deflate_compression_level,tiff_zstd_compression_level%CCITT&lt;space&gt;RLE,ccitt-rle,tiff_jpeg_compression_level,tiff_deflate_compression_level,tiff_zstd_compression_level%CCITT&lt;space&gt;FAX3,ccitt-fax3,tiff_jpeg_compression_level,tiff_deflate_compression_level,tiff_zstd_compression_level%CCITT&lt;space&gt;FAX4,ccitt-fax4,tiff_jpeg_compression_level,tiff_deflate_compression_level,tiff_zstd_compression_level%None,none,tiff_jpeg_compression_level,tiff_deflate_compression_level,tiff_zstd_compression_level Compression Method&quot; none &quot;GUI RANGE_SLIDER tiff_jpeg_compression_level 0%100%0%OFF JPEG Compression Level (0 - 100)&quot; 25 &quot;GUI RANGE_SLIDER tiff_deflate_compression_level 1%9%0%OFF DEFLATE Compression Level (1 - 9)&quot; 6 &quot;GUI RANGE_SLIDER tiff_zstd_compression_level 1%22%0%OFF ZSTD Compression Level (1 - 22)&quot; 9 &quot;GUI CHOICE tiff_tab_file_generation yes%no Generate TAB File&quot; no &quot;GUI OPTIONAL INTEGER tiff_number_of_bits_per_cell Number of Bits Per Cell (1 - 32)&quot; &quot;&quot; &quot;GUI CHOICE tiff_enable_bigtiff yes%no Enable BigTIFF&quot; no &quot;GUI CHOICE tiff_interleaving_type BSQ%BIP Interleaving Type&quot; BIP &quot;GUI CHOICE tiff_photometric_interpretation Auto%MinIsBlack%MinIsWhite%YCbCr Photometric Interpretation&quot; Auto &quot;GUI CHOICE tiff_byte_order machine%LSB%MSB Byte Order&quot; machine &quot;GUI CHOICE tiff_calculate_minmax_tifftags yes%no Calculate Min/Max TIFF Tags&quot; no &quot;GUI WHOLE_LINE INTEGER tiff_pyramid_num_levels Number of Levels&quot; &quot;&quot; &quot;GUI WHOLE_LINE LOOKUP_CHOICE tiff_pyramid_interpolation_type Nearest&lt;space&gt;Neighbor,NearestNeighbor%Bilinear,Bilinear%Bicubic,Bicubic Interpolation Type&quot; NearestNeighbor &quot;GUI WHOLE_LINE CHOICE tiff_pyramid_tile_size 64%128%256%512%1024%2048%4096 Number of Rows/Columns per Tile&quot; 128 "
-#!   ATTR_INDEX_TYPES=""
-#!   ATTR_NAME_INVALID_CHARS="&quot; ()"
-#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
-#!   ENABLED="true"
-#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
-#!   DATASET_TYPE="FILEDIR"
-#!   FTTR_TYPE=""
-#!   GENERATE_FME_BUILD_NUM="22776"
-#!   COORDSYS=""
-#!   FANOUT_EXPRESSION=""
-#!   FANOUT_GROUP="NO"
-#! >
-#! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="TIFF_IN_PYRAMID_LEVEL"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="AUTO_FANOUT_ATTRIBUTE"
-#!   VALUE="fme_basename"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
-#!   VALUE="Raster1"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Raster File"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="MIME_TYPE"
-#!   VALUE="image/tiff"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_AUTO_EXPOSE"
-#!   VALUE="fme_basename char(50)"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the TIFF file(s)"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a folder for the TIFF file"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -368,144 +307,6 @@
 #!   FME_TYPE="fme_decimal(width,decimal)"
 #!   FORMAT="SHAPEFILE"
 #! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_xml"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="datetime"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="time"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="date"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="decimal(width,decimal)"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="float"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="float"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="integer"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="largeint"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="decimal(20,0)"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="largeint"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="logical"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="smallint"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="integer"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="smallint"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="TIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="smallint"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="TIFF"
-#! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
 #! <GEOM_TYPE
@@ -616,108 +417,6 @@
 #!   FME_TYPE="fme_collection"
 #!   FORMAT="SHAPEFILE"
 #! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="tiff_raster"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="tiff_none"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_voxel_grid"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="tiff_none"
-#!   FME_TYPE="fme_feature_table"
-#!   FORMAT="TIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="tiff_none"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="TIFF"
-#! />
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
@@ -728,8 +427,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="2"
 #!   FEAT_GEOMTYPE="shapefile_polygon"
-#!   POSITION="141.87621876218765 -713.129781297813"
-#!   BOUNDING_RECT="141.87621876218765 -713.129781297813 454 71"
+#!   POSITION="-633.13153131531317 -713.129781297813"
+#!   BOUNDING_RECT="-633.13153131531317 -713.129781297813 454 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="SHAPEFILE_1"
@@ -778,84 +477,6 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="REGON" ATTR_TYPE="varchar(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="RODZAJ" ATTR_TYPE="varchar(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
-#! <FEATURE_TYPE
-#!   IS_SOURCE="false"
-#!   NODE_NAME="powiaty"
-#!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
-#!   IS_EDITABLE="true"
-#!   IDENTIFIER="14"
-#!   FEAT_GEOMTYPE="fme_no_map"
-#!   POSITION="3506.2540625406259 -646.88146881468811"
-#!   BOUNDING_RECT="3506.2540625406259 -646.88146881468811 454 71"
-#!   ORDER="500000000000007"
-#!   COLLAPSED="true"
-#!   KEYWORD="TIFF_1"
-#!   PARMS_EDITED="false"
-#!   ENABLED="true"
-#!   SCHEMA_ATTRIBUTE_SOURCE="1"
-#! >
-#!     <FEAT_ATTRIBUTE ATTR_NAME="gml_id" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_SJR_KO" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_POWIER" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_KOD_JE" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_NAZWA_" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_ORGAN_" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_JOR_ID" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="WERSJA_OD" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="WERSJA_DO" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="WAZNY_OD" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="WAZNY_DO" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_KOD__1" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_NAZWA1" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_ORGAN1" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_WAZNA_" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="ID_BUFORA_" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="ID_BUFORA1" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="ID_TECHNIC" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="IIP_PRZEST" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="IIP_IDENTY" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="IIP_WERSJA" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_KJ_IIP" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_KJ_I_1" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_KJ_I_2" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_OPIS" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_SPS_KO" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="ID_BUFOR_1" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_ID" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_POWI_1" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_KJ_I_3" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_GEOMET" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="JPT_GEOM_1" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_LENG" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="SHAPE_AREA" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="REGON" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="RODZAJ" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_advanced_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_byte_order" PARM_VALUE="machine"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_calculate_minmax_tifftags" PARM_VALUE="no"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_compression_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_compression_method" PARM_VALUE="none"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_create_tiled_files" PARM_VALUE="no"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_deflate_compression_level" PARM_VALUE="6"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_enable_bigtiff" PARM_VALUE="no"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_generate_pyramids" PARM_VALUE="no"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_interleaving_type" PARM_VALUE="BIP"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_jpeg_compression_level" PARM_VALUE="25"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_layer_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_metadata_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_number_of_bits_per_cell" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_photometric_interpretation" PARM_VALUE="Auto"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_pyramid_interpolation_type" PARM_VALUE="NearestNeighbor"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_pyramid_num_levels" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_pyramid_tile_size" PARM_VALUE="128"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_tab_file_generation" PARM_VALUE="no"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_tile_group" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_tile_size_x" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_tile_size_y" PARM_VALUE=""/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_world_file_generation" PARM_VALUE="yes"/>
-#!     <DEFLINE_PARM PARM_NAME="tiff_zstd_compression_level" PARM_VALUE="9"/>
-#! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
 #! <READER_DATASETS>
@@ -870,56 +491,41 @@
 #!   DATASET="SHAPEFILE_1/powiaty.shp"
 #! />
 #! </READER_DATASETS>
-#! <WRITER_DATASETS>
-#! <DATASET
-#!   NAME="TIFF_1"
-#!   OVERRIDE="-TIFF_1_DATASET"
-#!   DATASET="TIFF_1/Bazy_danych_II_Pawel_Dela"
-#! />
-#! </WRITER_DATASETS>
-#! <DEPENDENCIES>
-#! <PACKAGES>
-#! <PACKAGE
-#!   NAME="safe.emailer"
-#!   VERSION="3.2.1"
-#! />
-#! </PACKAGES>
-#! </DEPENDENCIES>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI STRING_OR_ATTR Email Podaj email"
-#!   DEFAULT_VALUE="pdela@steudent.agh.edu.pl"
+#!   GUI_LINE="GUI STRING Email Podaj email"
+#!   DEFAULT_VALUE="dela.kontakt@gmail.com"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI STRING_OR_ATTR Powiat Podaj nazwe powiatu"
-#!   DEFAULT_VALUE="krakowski"
+#!   GUI_LINE="GUI STRING Powiat Podaj nazwe powiatu"
+#!   DEFAULT_VALUE="powiat Warszawa"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI PASSWORD hasło Podaj hasło"
-#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMsz1IEKKOHPGYSg18tC6R9SwS94QbX97WJEuiIno7E30oQa7gYImpW3mKtOdpCeulIEE8AhJUgElCPeBN4swIXKECKTaAPrIm5w8SEWRzaoOJZjMClL3ycUkyy4aEfarOrlEEAA5i00yKJc0lx18C3k6NgtO8goC0yf6djOJUiGJvoYKtmLo8h3hLzsBfaSqlqmlqovSXIOJlP27yljhc9otbtlTQIQCPUg3Y3R2I1hp521NYgBwKUXEApwca5EW4T76rxRKdxh3iVDqc+l/cOCOfxBdBI1qA47hAjcbxIBN51WvgacuPOUY4LBYsJL8B0cfiJIDK5t6azsBPd04fqDA/eX4JovzbvB)"
+#!   GUI_LINE="GUI PASSWORD pass Podaj hasło"
+#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszy0kiX/V90myIj79EBfnYEtkoZsuf2NLa8WpiCLEOc6LlSOcrQSXg+i5dZQhoRe6DxQrL4TuQIPDMUy2gh6GKR9/RDv5QKLWFrV+uQ3b2EoX5x7d/bN7ki7KwldgO/Nq74N+reaIXjDSfqjb80zms+lO+I+KnrY00a0QpRQpLcXofix4T1I1WUKdJ7+/Tah2SbHaeRTlN8sebXfQXBySuy+LXPff9QL6ybf854a5sMG3zTfgphwhRKTeIStbGQHtBB3ZI1gCnWLU2hZvmG7ygj4qSdPSTf7/ZSzstWXIZvlbgUD4XYoPAzOdLtJlaIXDsfL0OwjNmC9ZfRlhtv8TLVgT1lhB2pAll)"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI STRING_OR_ATTR email_klienta podaj email klienta"
+#!   GUI_LINE="GUI STRING email_klienta podaj email klienta"
 #!   DEFAULT_VALUE="dela.kontakt@gmail.com"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI RANGE_SLIDER_OR_ATTR zakrycie_chmur RANGE:[0,100] Podaj maksymalne pokrycie chmur"
-#!   DEFAULT_VALUE="1"
+#!   DEFAULT_VALUE="20"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI DATETIME data_początkowa {} podaj datę początkową"
-#!   DEFAULT_VALUE="20230104000000"
+#!   DEFAULT_VALUE="20220501000000"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI DATETIME_OR_ATTR data_koncowa {} podaj datę końcową"
-#!   DEFAULT_VALUE="20230126000000"
+#!   DEFAULT_VALUE="20221216000000"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -927,54 +533,49 @@
 #!   DEFAULT_VALUE="$(FME_MF_DIR)powiaty.shp"
 #!   IS_STAND_ALONE="false"
 #! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI DIRNAME DestDataset_TIFF Destination TIFF (Tagged Image File Format) Folder:"
-#!   DEFAULT_VALUE="C:\Studia\Bazy danych\Bazy_danych_II_Pawel_Dela"
-#!   IS_STAND_ALONE="false"
-#! />
 #! </GLOBAL_PARAMETERS>
 #! <USER_PARAMETERS
-#!   FORM="eyJwYXJhbWV0ZXJzIjpbeyJkZWZhdWx0VmFsdWUiOiJwZGVsYUBzdGV1ZGVudC5hZ2guZWR1LnBsIiwiaGlkZGVuIjpmYWxzZSwibmFtZSI6IkVtYWlsIiwicHJvbXB0IjoiUG9kYWogZW1haWwiLCJyZXF1aXJlZCI6dHJ1ZSwic2hvd0VkaXRCdXR0b24iOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6InRleHQiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6ImtyYWtvd3NraSIsImhpZGRlbiI6ZmFsc2UsIm5hbWUiOiJQb3dpYXQiLCJwcm9tcHQiOiJQb2RhaiBuYXp3ZSBwb3dpYXR1IiwicmVxdWlyZWQiOnRydWUsInNob3dFZGl0QnV0dG9uIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJ0ZXh0IiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJkZWZhdWx0VmFsdWUiOiJmbWVfZGVjcnlwdChNRG93ZkNOOEkzeGNHM0dRL1RlUlJVSlVaNUxEUHRkdnBzY2JoN05qOWdHL0lOQmtBR0ErZmthRHJOYmhadGZhM3Jta1VVckN4S1dhQUZ3aVlzS2dXSk5sLzBtUnB4VXVQK0lUMmMrUWhoMjZKRVp0VVdBbXB1b2FRQ2RRM3lrS1dtMnphb0FNNU1CQ0dhR0V1WWUrNkFTMDcvbkxOUkp3cXAxamR3UDFGZ1ZDYlhSdlp0V2ZLakVabE5KWVErRWljVmM2Y3YyRHhDWUp5VGxqdlh3RjhtS3hlbk1MNkZLSmlIQVJRQ084T01KaWRLS1pRSlAxU2VZSWhxQjBZcnRHdzRjR1YyWnF1UUtpZnZSakIyVGw2d0JBV0RtZUNnK1IxanZmdDF0UjE3U0lTeVREdjc3SyttVjgwdzJhYVVTZ3liYkY3Y29NMEJyUVBjcGVoZmpsVytZeFY3Mys5bVBNRlhLUWV6bloyMlQ4TUpvcjU3TzQ0cDhVMk5RQ3czNUhpRkJzMG9WUDlWa2tZMEQvV3pHUmV2c2V5WDFwSUVXSlNRU0Z3a0pWaGl5WGF2TUR6NUU1U0VZZ1RaSGZWZUdCWENEdUlFRWJmUlJrUFU1eUQybncyWkFWaW1EUkQ3VVFoRUVZNlBvc0dxVTE3SGU0eTM1V0VmQWdnUTQwK0VLdXVwT1FTWlJzS290VFRxbFlHSEp0WDQ5eW11S3FmeVp6T0FVU1V6RE1jajhnZkRnek9DY3VodzJzSzNmSmFNc3oxSUVLS09IUEdZU2cxOHRDNlI5U3dTOTRRYlg5N1dKRXVpSW5vN0UzMG9RYTdnWUltcFczbUt0T2RwQ2V1bElFRThBaEpVZ0VsQ1BlQk40c3dJWEtFQ0tUYUFQckltNXc4U0VXUnphb09KWmpNQ2xMM3ljVWt5eTRhRWZhck9ybEVFQUE1aTAweUtKYzBseDE4QzNrNk5ndE84Z29DMHlmNmRqT0pVaUdKdm9ZS3RtTG84aDNoTHpzQmZhU3FscW1scW92U1hJT0psUDI3eWxqaGM5b3RidGxUUUlRQ1BVZzNZM1IySTFocDUyMU5ZZ0J3S1VYRUFwd2NhNUVXNFQ3NnJ4UktkeGgzaVZEcWMrbC9jT0NPZnhCZEJJMXFBNDdoQWpjYnhJQk41MVd2Z2FjdVBPVVk0TEJZc0pMOEIwY2ZpSklESzV0NmF6c0JQZDA0ZnFEQS9lWDRKb3Z6YnZCKSIsImhpZGRlbiI6ZmFsc2UsIm5hbWUiOiJoYXPFgm8iLCJwcm9tcHQiOiJQb2RhaiBoYXPFgm8iLCJyZXF1aXJlZCI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6InBhc3N3b3JkIiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJkZWZhdWx0VmFsdWUiOiJkZWxhLmtvbnRha3RAZ21haWwuY29tIiwiaGlkZGVuIjpmYWxzZSwibmFtZSI6ImVtYWlsX2tsaWVudGEiLCJwcm9tcHQiOiJwb2RhaiBlbWFpbCBrbGllbnRhIiwicmVxdWlyZWQiOnRydWUsInNob3dFZGl0QnV0dG9uIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJ0ZXh0IiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJkZWZhdWx0VmFsdWUiOiIxIiwiaGlkZGVuIjpmYWxzZSwibWF4aW11bSI6MTAwLCJtYXhpbXVtRXhjbHVzaXZlIjpmYWxzZSwibWluaW11bSI6MCwibWluaW11bUV4Y2x1c2l2ZSI6ZmFsc2UsIm5hbWUiOiJ6YWtyeWNpZV9jaG11ciIsInByb21wdCI6IlBvZGFqIG1ha3N5bWFsbmUgcG9rcnljaWUgY2htdXIiLCJyZXF1aXJlZCI6dHJ1ZSwic2hvd1NsaWRlciI6ZmFsc2UsInNsaWRlclRpY2tJbmNyZW1lbnQiOjEwLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6Im51bWJlciIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiMjAyMzAxMDQwMDAwMDAiLCJoaWRkZW4iOmZhbHNlLCJuYW1lIjoiZGF0YV9wb2N6xIV0a293YSIsInByb21wdCI6InBvZGFqIGRhdMSZIHBvY3rEhXRrb3fEhSIsInJlcXVpcmVkIjp0cnVlLCJ0eXBlIjoiZGF0ZXRpbWUiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6IjIwMjMwMTI2MDAwMDAwIiwiaGlkZGVuIjpmYWxzZSwibmFtZSI6ImRhdGFfa29uY293YSIsInByb21wdCI6InBvZGFqIGRhdMSZIGtvxYRjb3fEhSIsInJlcXVpcmVkIjp0cnVlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImRhdGV0aW1lIiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJhY2Nlc3NNb2RlIjoicmVhZCIsImRlZmF1bHRWYWx1ZSI6IiQoRk1FX01GX0RJUilwb3dpYXR5LnNocCIsImZpbHRlcnMiOlt7ImRlc2NyaXB0aW9uIjoiU2hhcGVmaWxlcyIsImZpbHRlciI6WyIqLnNocCJdfSx7ImRlc2NyaXB0aW9uIjoiQ29tcHJlc3NlZCBTaGFwZWZpbGVzIiwiZmlsdGVyIjpbIiouc2h6Il19LHsiZGVzY3JpcHRpb24iOiJBcmNoaXZlIEZpbGVzIiwiZmlsdGVyIjpbIiouN3oiLCIqLjd6aXAiLCIqLnJhciIsIioucnZ6IiwiKi50YXIiLCIqLnRhci5iejIiLCIqLnRhci5neiIsIioudGd6IiwiKi56aXAiLCIqLnppcHgiXX0seyJkZXNjcmlwdGlvbiI6IkNvbXByZXNzZWQgRmlsZXMiLCJmaWx0ZXIiOlsiKi5iejIiLCIqLmd6Il19LHsiZGVzY3JpcHRpb24iOiJBbGwgRmlsZXMiLCJmaWx0ZXIiOlsiKiJdfV0sImluY2x1ZGVXZWJCcm93c2VyIjp0cnVlLCJpdGVtc1RvU2VsZWN0IjoiZmlsZXMiLCJuYW1lIjoiU291cmNlRGF0YXNldF9TSEFQRUZJTEUiLCJwcm9tcHQiOiJTb3VyY2UgRXNyaSBTaGFwZWZpbGUocyk6IiwicmVxdWlyZWQiOnRydWUsInNlbGVjdE11bHRpcGxlIjp0cnVlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoiZmlsZSIsInZhbGlkYXRlRXhpc3RlbmNlIjpmYWxzZSwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJhY2Nlc3NNb2RlIjoid3JpdGUiLCJkZWZhdWx0VmFsdWUiOiJDOlxcU3R1ZGlhXFxCYXp5IGRhbnljaFxcQmF6eV9kYW55Y2hfSUlfUGF3ZWxfRGVsYSIsIml0ZW1zVG9TZWxlY3QiOiJmb2xkZXJzIiwibmFtZSI6IkRlc3REYXRhc2V0X1RJRkYiLCJwcm9tcHQiOiJEZXN0aW5hdGlvbiBUSUZGIChUYWdnZWQgSW1hZ2UgRmlsZSBGb3JtYXQpIEZvbGRlcjoiLCJyZXF1aXJlZCI6dHJ1ZSwic2VsZWN0TXVsdGlwbGUiOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoiZmlsZSIsInZhbGlkYXRlRXhpc3RlbmNlIjpmYWxzZSwidmFsdWVUeXBlIjoic3RyaW5nIn1dfQ=="
+#!   FORM="eyJwYXJhbWV0ZXJzIjpbeyJkZWZhdWx0VmFsdWUiOiJkZWxhLmtvbnRha3RAZ21haWwuY29tIiwiaGlkZGVuIjpmYWxzZSwibmFtZSI6IkVtYWlsIiwicHJvbXB0IjoiUG9kYWogZW1haWwiLCJyZXF1aXJlZCI6dHJ1ZSwic2hvd0VkaXRCdXR0b24iOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoicG93aWF0IFdhcnN6YXdhIiwiaGlkZGVuIjpmYWxzZSwibmFtZSI6IlBvd2lhdCIsInByb21wdCI6IlBvZGFqIG5hendlIHBvd2lhdHUiLCJyZXF1aXJlZCI6dHJ1ZSwic2hvd0VkaXRCdXR0b24iOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiZm1lX2RlY3J5cHQoTURvd2ZDTjhJM3hjRzNHUS9UZVJSVUpVWjVMRFB0ZHZwc2NiaDdOajlnRy9JTkJrQUdBK2ZrYURyTmJoWnRmYTNybWtVVXJDeEtXYUFGd2lZc0tnV0pObC8wbVJweFV1UCtJVDJjK1FoaDI2SkVadFVXQW1wdW9hUUNkUTN5a0tXbTJ6YW9BTTVNQkNHYUdFdVllKzZBUzA3L25MTlJKd3FwMWpkd1AxRmdWQ2JYUnZadFdmS2pFWmxOSllRK0VpY1ZjNmN2MkR4Q1lKeVRsanZYd0Y4bUt4ZW5NTDZGS0ppSEFSUUNPOE9NSmlkS0taUUpQMVNlWUlocUIwWXJ0R3c0Y0dWMlpxdVFLaWZ2UmpCMlRsNndCQVdEbWVDZytSMWp2ZnQxdFIxN1NJU3lURHY3N0srbVY4MHcyYWFVU2d5YmJGN2NvTTBCclFQY3BlaGZqbFcrWXhWNzMrOW1QTUZYS1Flem5aMjJUOE1Kb3I1N080NHA4VTJOUUN3MzVIaUZCczBvVlA5VmtrWTBEL1d6R1JldnNleVgxcElFV0pTUVNGd2tKVmhpeVhhdk1EejVFNVNFWWdUWkhmVmVHQlhDRHVJRUViZlJSa1BVNXlEMm53MlpBVmltRFJEN1VRaEVFWTZQb3NHcVUxN0hlNHkzNVdFZkFnZ1E0MCtFS3V1cE9RU1pSc0tvdFRUcWxZR0hKdFg0OXltdUtxZnlaek9BVVNVekRNY2o4Z2ZEZ3pPQ2N1aHcyc0szZkphTXN6eTBraVgvVjkwbXlJajc5RUJmbllFdGtvWnN1ZjJOTGE4V3BpQ0xFT2M2TGxTT2NyUVNYZytpNWRaUWhvUmU2RHhRckw0VHVRSVBETVV5MmdoNkdLUjkvUkR2NVFLTFdGclYrdVEzYjJFb1g1eDdkL2JON2tpN0t3bGRnTy9OcTc0TityZWFJWGpEU2ZxamI4MHptcytsTytJK0tuclkwMGEwUXBSUXBMY1hvZml4NFQxSTFXVUtkSjcrL1RhaDJTYkhhZVJUbE44c2ViWGZRWEJ5U3V5K0xYUGZmOVFMNnliZjg1NGE1c01HM3pUZmdwaHdoUktUZUlTdGJHUUh0QkIzWkkxZ0NuV0xVMmhadm1HN3lnajRxU2RQU1RmNy9aU3pzdFdYSVp2bGJnVUQ0WFlvUEF6T2RMdEpsYUlYRHNmTDBPd2pObUM5WmZSbGh0djhUTFZnVDFsaEIycEFsbCkiLCJoaWRkZW4iOmZhbHNlLCJuYW1lIjoicGFzcyIsInByb21wdCI6IlBvZGFqIGhhc8WCbyIsInJlcXVpcmVkIjp0cnVlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoicGFzc3dvcmQiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImRlZmF1bHRWYWx1ZSI6ImRlbGEua29udGFrdEBnbWFpbC5jb20iLCJoaWRkZW4iOmZhbHNlLCJuYW1lIjoiZW1haWxfa2xpZW50YSIsInByb21wdCI6InBvZGFqIGVtYWlsIGtsaWVudGEiLCJyZXF1aXJlZCI6dHJ1ZSwic2hvd0VkaXRCdXR0b24iOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiMjAiLCJoaWRkZW4iOmZhbHNlLCJtYXhpbXVtIjoxMDAsIm1heGltdW1FeGNsdXNpdmUiOmZhbHNlLCJtaW5pbXVtIjowLCJtaW5pbXVtRXhjbHVzaXZlIjpmYWxzZSwibmFtZSI6Inpha3J5Y2llX2NobXVyIiwicHJvbXB0IjoiUG9kYWogbWFrc3ltYWxuZSBwb2tyeWNpZSBjaG11ciIsInJlcXVpcmVkIjp0cnVlLCJzaG93U2xpZGVyIjpmYWxzZSwic2xpZGVyVGlja0luY3JlbWVudCI6MTAsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoibnVtYmVyIiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJkZWZhdWx0VmFsdWUiOiIyMDIyMDUwMTAwMDAwMCIsImhpZGRlbiI6ZmFsc2UsIm5hbWUiOiJkYXRhX3BvY3rEhXRrb3dhIiwicHJvbXB0IjoicG9kYWogZGF0xJkgcG9jesSFdGtvd8SFIiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJkYXRldGltZSIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiZGVmYXVsdFZhbHVlIjoiMjAyMjEyMTYwMDAwMDAiLCJoaWRkZW4iOmZhbHNlLCJuYW1lIjoiZGF0YV9rb25jb3dhIiwicHJvbXB0IjoicG9kYWogZGF0xJkga2/FhGNvd8SFIiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoiZGF0ZXRpbWUiLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImFjY2Vzc01vZGUiOiJyZWFkIiwiZGVmYXVsdFZhbHVlIjoiJChGTUVfTUZfRElSKXBvd2lhdHkuc2hwIiwiZmlsdGVycyI6W3siZGVzY3JpcHRpb24iOiJTaGFwZWZpbGVzIiwiZmlsdGVyIjpbIiouc2hwIl19LHsiZGVzY3JpcHRpb24iOiJDb21wcmVzc2VkIFNoYXBlZmlsZXMiLCJmaWx0ZXIiOlsiKi5zaHoiXX0seyJkZXNjcmlwdGlvbiI6IkFyY2hpdmUgRmlsZXMiLCJmaWx0ZXIiOlsiKi43eiIsIiouN3ppcCIsIioucmFyIiwiKi5ydnoiLCIqLnRhciIsIioudGFyLmJ6MiIsIioudGFyLmd6IiwiKi50Z3oiLCIqLnppcCIsIiouemlweCJdfSx7ImRlc2NyaXB0aW9uIjoiQ29tcHJlc3NlZCBGaWxlcyIsImZpbHRlciI6WyIqLmJ6MiIsIiouZ3oiXX0seyJkZXNjcmlwdGlvbiI6IkFsbCBGaWxlcyIsImZpbHRlciI6WyIqIl19XSwiaW5jbHVkZVdlYkJyb3dzZXIiOnRydWUsIml0ZW1zVG9TZWxlY3QiOiJmaWxlcyIsIm5hbWUiOiJTb3VyY2VEYXRhc2V0X1NIQVBFRklMRSIsInByb21wdCI6IlNvdXJjZSBFc3JpIFNoYXBlZmlsZShzKToiLCJyZXF1aXJlZCI6dHJ1ZSwic2VsZWN0TXVsdGlwbGUiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJmaWxlIiwidmFsaWRhdGVFeGlzdGVuY2UiOmZhbHNlLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifV19"
 #! >
 #! <PARAMETER_INFO>
 #!     <INFO NAME="Email" 
-#!   DEFAULT_VALUE="pdela@steudent.agh.edu.pl"
+#!   DEFAULT_VALUE="dela.kontakt@gmail.com"
 #!   SCOPE="STAND_ALONE"
 #!   GENERATED_GUI_LINE="true"
-#!   GUI_LINE="GUI STRING_OR_ATTR Email Podaj email"
+#!   GUI_LINE="GUI STRING Email Podaj email"
 #! />
 #!     <INFO NAME="Powiat" 
-#!   DEFAULT_VALUE="krakowski"
+#!   DEFAULT_VALUE="powiat Warszawa"
 #!   SCOPE="STAND_ALONE"
 #!   GENERATED_GUI_LINE="true"
-#!   GUI_LINE="GUI STRING_OR_ATTR Powiat Podaj nazwe powiatu"
+#!   GUI_LINE="GUI STRING Powiat Podaj nazwe powiatu"
 #! />
-#!     <INFO NAME="hasło" 
-#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMsz1IEKKOHPGYSg18tC6R9SwS94QbX97WJEuiIno7E30oQa7gYImpW3mKtOdpCeulIEE8AhJUgElCPeBN4swIXKECKTaAPrIm5w8SEWRzaoOJZjMClL3ycUkyy4aEfarOrlEEAA5i00yKJc0lx18C3k6NgtO8goC0yf6djOJUiGJvoYKtmLo8h3hLzsBfaSqlqmlqovSXIOJlP27yljhc9otbtlTQIQCPUg3Y3R2I1hp521NYgBwKUXEApwca5EW4T76rxRKdxh3iVDqc+l/cOCOfxBdBI1qA47hAjcbxIBN51WvgacuPOUY4LBYsJL8B0cfiJIDK5t6azsBPd04fqDA/eX4JovzbvB)"
+#!     <INFO NAME="pass" 
+#!   DEFAULT_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszy0kiX/V90myIj79EBfnYEtkoZsuf2NLa8WpiCLEOc6LlSOcrQSXg+i5dZQhoRe6DxQrL4TuQIPDMUy2gh6GKR9/RDv5QKLWFrV+uQ3b2EoX5x7d/bN7ki7KwldgO/Nq74N+reaIXjDSfqjb80zms+lO+I+KnrY00a0QpRQpLcXofix4T1I1WUKdJ7+/Tah2SbHaeRTlN8sebXfQXBySuy+LXPff9QL6ybf854a5sMG3zTfgphwhRKTeIStbGQHtBB3ZI1gCnWLU2hZvmG7ygj4qSdPSTf7/ZSzstWXIZvlbgUD4XYoPAzOdLtJlaIXDsfL0OwjNmC9ZfRlhtv8TLVgT1lhB2pAll)"
 #!   SCOPE="STAND_ALONE"
 #!   GENERATED_GUI_LINE="true"
-#!   GUI_LINE="GUI PASSWORD hasło Podaj hasło"
+#!   GUI_LINE="GUI PASSWORD pass Podaj hasło"
 #! />
 #!     <INFO NAME="email_klienta" 
 #!   DEFAULT_VALUE="dela.kontakt@gmail.com"
 #!   SCOPE="STAND_ALONE"
 #!   GENERATED_GUI_LINE="true"
-#!   GUI_LINE="GUI STRING_OR_ATTR email_klienta podaj email klienta"
+#!   GUI_LINE="GUI STRING email_klienta podaj email klienta"
 #! />
 #!     <INFO NAME="zakrycie_chmur" 
-#!   DEFAULT_VALUE="1"
+#!   DEFAULT_VALUE="20"
 #!   SCOPE="STAND_ALONE"
 #!   GENERATED_GUI_LINE="true"
 #!   GUI_LINE="GUI RANGE_SLIDER_OR_ATTR zakrycie_chmur RANGE:[0,100] Podaj maksymalne pokrycie chmur"
 #! />
 #!     <INFO NAME="data_początkowa" 
-#!   DEFAULT_VALUE="20230104000000"
+#!   DEFAULT_VALUE="20220501000000"
 #!   SCOPE="STAND_ALONE"
 #!   GENERATED_GUI_LINE="true"
 #!   GUI_LINE="GUI DATETIME data_początkowa {} podaj datę początkową"
 #! />
 #!     <INFO NAME="data_koncowa" 
-#!   DEFAULT_VALUE="20230126000000"
+#!   DEFAULT_VALUE="20221216000000"
 #!   SCOPE="STAND_ALONE"
 #!   GENERATED_GUI_LINE="true"
 #!   GUI_LINE="GUI DATETIME_OR_ATTR data_koncowa {} podaj datę końcową"
@@ -985,12 +586,6 @@
 #!   GENERATED_GUI_LINE="true"
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_SHAPEFILE INCLUDE_WEB_BROWSER%Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|All_Files(*)|* Source Esri Shapefile(s):"
 #! />
-#!     <INFO NAME="DestDataset_TIFF" 
-#!   DEFAULT_VALUE="C:\Studia\Bazy danych\Bazy_danych_II_Pawel_Dela"
-#!   SCOPE="DEPENDENT"
-#!   GENERATED_GUI_LINE="true"
-#!   GUI_LINE="GUI DIRNAME DestDataset_TIFF Destination TIFF (Tagged Image File Format) Folder:"
-#! />
 #! </PARAMETER_INFO>
 #! </USER_PARAMETERS>
 #! <COMMENTS>
@@ -1000,102 +595,6 @@
 #! <BOOKMARKS>
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
-#! <TRANSFORMER
-#!   IDENTIFIER="3"
-#!   TYPE="TestFilter"
-#!   VERSION="2"
-#!   POSITION="846.88346883468853 -713.129781297813"
-#!   BOUNDING_RECT="846.88346883468853 -713.129781297813 454 71"
-#!   ORDER="500000000000002"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="22776"
-#! >
-#!     <OUTPUT_FEAT NAME="&lt;at&gt;Value&lt;openparen&gt;JPT_NAZWA_&lt;closeparen&gt;&lt;space&gt;=&lt;space&gt;__Powiat_"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_SJR_KO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_POWIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_KOD_JE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_NAZWA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_ORGAN_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_JOR_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="WERSJA_OD" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="WERSJA_DO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="WAZNY_OD" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="WAZNY_DO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_KOD__1" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_NAZWA1" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_ORGAN1" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_WAZNA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ID_BUFORA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ID_BUFORA1" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ID_TECHNIC" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="IIP_PRZEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="IIP_IDENTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="IIP_WERSJA" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_IIP" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_1" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_2" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_OPIS" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_SPS_KO" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ID_BUFOR_1" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_POWI_1" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_3" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_GEOMET" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_GEOM_1" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="SHAPE_LENG" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="SHAPE_AREA" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="REGON" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="RODZAJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_SJR_KO" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_POWIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_KOD_JE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_NAZWA_" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_ORGAN_" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_JOR_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="WERSJA_OD" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="WERSJA_DO" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="WAZNY_OD" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="WAZNY_DO" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_KOD__1" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_NAZWA1" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_ORGAN1" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_WAZNA_" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="ID_BUFORA_" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="ID_BUFORA1" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="ID_TECHNIC" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="IIP_PRZEST" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="IIP_IDENTY" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="IIP_WERSJA" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_IIP" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_1" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_2" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_OPIS" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_SPS_KO" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="ID_BUFOR_1" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_POWI_1" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_3" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_GEOMET" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="JPT_GEOM_1" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="SHAPE_LENG" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="SHAPE_AREA" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="REGON" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="RODZAJ" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PASSED_TEST_GROUP_OUTPUT" PARM_VALUE="FIRST"/>
-#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
-#!     <XFORM_PARM PARM_NAME="TESTLISTGRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;JPT_NAZWA_&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;$(Powiat)&quot;,&lt;at&gt;Value&lt;openparen&gt;JPT_NAZWA_&lt;closeparen&gt;&lt;space&gt;=&lt;space&gt;__Powiat_"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
-#! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="5"
 #!   TYPE="SubDocumentTransformer"
@@ -1149,28 +648,28 @@
 #!     <OUTPUT_FEAT NAME="TCI"/>
 #!     <FEAT_COLLAPSED COLLAPSED="13"/>
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="13" />
-#!     <XFORM_PARM PARM_NAME="BEGIN" PARM_VALUE="20220307"/>
-#!     <XFORM_PARM PARM_NAME="Band_Resolution" PARM_VALUE="All"/>
+#!     <XFORM_PARM PARM_NAME="BEGIN" PARM_VALUE="$(data_początkowa)"/>
+#!     <XFORM_PARM PARM_NAME="Band_Resolution" PARM_VALUE="10m"/>
 #!     <XFORM_PARM PARM_NAME="CloudCover" PARM_VALUE="$(zakrycie_chmur)"/>
 #!     <XFORM_PARM PARM_NAME="END" PARM_VALUE="$(data_koncowa)"/>
 #!     <XFORM_PARM PARM_NAME="FME_USER_PARAM_PRIVATE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LEVEL" PARM_VALUE="Level 1C"/>
-#!     <XFORM_PARM PARM_NAME="MOST_RECENT" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="LEVEL" PARM_VALUE="Level 2A"/>
+#!     <XFORM_PARM PARM_NAME="MOST_RECENT" PARM_VALUE="YES"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETER" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETER_2" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SUB_DOC_NAME" PARM_VALUE="SentinelDownloader"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SentinelDownloader"/>
 #!     <XFORM_PARM PARM_NAME="key_name" PARM_VALUE="pdela"/>
-#!     <XFORM_PARM PARM_NAME="key_pw" PARM_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszkZlyARntRDtbGyKgwQrwcCnqZnvwi47PWM6Kj/aF4dphthKJOuslOiLV4IAnWbONUnKI6pgxQHpbwj9r7MSPezTFv7b3SYGqkUTG9AyMhOsuo5D+kaV1kTa98HrxcwyyTie3SD0owFTGBju9oZdj+1CjrOaagWPzmLV+E/MorGxOS0jlgYL2axeAmlJ5SoJFk+1IQte6YjHbmUsC1ETMCR5ZdQkQlSB5R7WhwjQtZ/BHQBLOsLEMX79iJxU7LUrL3i0mOlHWFF9ZeLttFOvRaT7uvrA5Y2MEwlNBfsXLd08bwqJ3UIFF1VYwYywb9is57+Sl+fBl2kRl9rlizwLkILx8w/GLXI5r)"/>
+#!     <XFORM_PARM PARM_NAME="key_pw" PARM_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszRUAiLJzGdj+JP2oqWwr4iU5oDo+FZ53nc8hnLKFxq/s5QCc9vNFSBKCQbDMdngpFzhfFRwN+Gayo/3yTIjcMMOYnzAjtPaeo+Clyk9f3FDpIgnzq6AmW/J0S9ERpdwznE242F8j5pm/qYHgMlCfS8LEToCqBikAkYx7oy5GrnXVjoxubRu3UaDZLWiQgFoCp5D+UEcFweFBsZvVHP5KooPGt6rPw6a3JhBoHN7/QB13NhXVs26xmx8jspECh7w+IMvkeR7Gg2LqY9kpZOuLm0b29HzpsVKytpJfyqrh1zxc/9lb09oyb7ilAEe232AhsFQpuP/LeeHYrggz78ecfDHg7XBO0lZoA)"/>
 #!     <XFORM_PARM PARM_NAME="platform" PARM_VALUE="Sentinel-2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="7"
 #!   TYPE="Sampler"
 #!   VERSION="5"
-#!   POSITION="2112.5211252112517 -785.00550005500031"
-#!   BOUNDING_RECT="2112.5211252112517 -785.00550005500031 454 71"
+#!   POSITION="2081.2708127081273 -898.76018760187537"
+#!   BOUNDING_RECT="2081.2708127081273 -898.76018760187537 454 71"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1196,8 +695,8 @@
 #!   IDENTIFIER="8"
 #!   TYPE="Sampler"
 #!   VERSION="5"
-#!   POSITION="2146.8964689646891 -1164.5117765350017"
-#!   BOUNDING_RECT="2146.8964689646891 -1164.5117765350017 454 71"
+#!   POSITION="1996.8949689496894 -1155.1366827840639"
+#!   BOUNDING_RECT="1996.8949689496894 -1155.1366827840639 454 71"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1223,8 +722,8 @@
 #!   IDENTIFIER="9"
 #!   TYPE="NDVICalculator"
 #!   VERSION="2"
-#!   POSITION="2768.7776877768783 -881.25881258812592"
-#!   BOUNDING_RECT="2768.7776877768783 -881.25881258812592 430 71"
+#!   POSITION="3681.2868128681293 -928.13428134281332"
+#!   BOUNDING_RECT="3681.2868128681293 -928.13428134281332 430 71"
 #!   ORDER="500000000000005"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1280,7 +779,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_savi_adjustment" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_index_type" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_bitness" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="COLORIZE" PARM_VALUE="No Colorization"/>
+#!     <XFORM_PARM PARM_NAME="COLORIZE" PARM_VALUE="Blue-Yellow-Green Palette"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEXTYPE" PARM_VALUE="NDVI"/>
 #!     <XFORM_PARM PARM_NAME="SAVIADJUSTMENT" PARM_VALUE="0.5"/>
@@ -1292,8 +791,8 @@
 #!   IDENTIFIER="16"
 #!   TYPE="RasterStatisticsCalculator"
 #!   VERSION="1"
-#!   POSITION="3506.2540625406259 -1001.2588125881259"
-#!   BOUNDING_RECT="3506.2540625406259 -1001.2588125881259 529.10000000000002 71"
+#!   POSITION="5250.0215002150044 -1504.3888438884387"
+#!   BOUNDING_RECT="5250.0215002150044 -1504.3888438884387 529.10000000000002 71"
 #!   ORDER="500000000000009"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1317,49 +816,418 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RasterStatisticsCalculator"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="18"
-#!   TYPE="safe.emailer.Emailer"
-#!   VERSION="1"
-#!   POSITION="4275.0427504275031 -1001.2588125881259"
-#!   BOUNDING_RECT="4275.0427504275031 -1001.2588125881259 454 71"
-#!   ORDER="500000000000010"
+#!   IDENTIFIER="21"
+#!   TYPE="Reprojector"
+#!   VERSION="5"
+#!   POSITION="84.375843758437526 -713.129781297813"
+#!   BOUNDING_RECT="84.375843758437526 -713.129781297813 454 71"
+#!   ORDER="500000000000034"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="22776"
 #! >
-#!     <OUTPUT_FEAT NAME="Sent"/>
+#!     <OUTPUT_FEAT NAME="REPROJECTED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_SJR_KO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_POWIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KOD_JE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_NAZWA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_ORGAN_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_JOR_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WERSJA_OD" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WERSJA_DO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WAZNY_OD" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WAZNY_DO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KOD__1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_NAZWA1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_ORGAN1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_WAZNA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ID_BUFORA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ID_BUFORA1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ID_TECHNIC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="IIP_PRZEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="IIP_IDENTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="IIP_WERSJA" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_IIP" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_OPIS" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_SPS_KO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ID_BUFOR_1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_POWI_1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_3" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_GEOMET" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_GEOM_1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SHAPE_LENG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SHAPE_AREA" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="REGON" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="RODZAJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4326"/>
+#!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_TOLERANCE" PARM_VALUE="0.0"/>
+#!     <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="23"
+#!   TYPE="Tester"
+#!   VERSION="3"
+#!   POSITION="803.63265632656305 -713.129781297813"
+#!   BOUNDING_RECT="803.63265632656305 -713.129781297813 454 71"
+#!   ORDER="500000000000035"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22776"
+#! >
+#!     <OUTPUT_FEAT NAME="PASSED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_SJR_KO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_POWIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KOD_JE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_NAZWA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_ORGAN_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_JOR_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WERSJA_OD" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WERSJA_DO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WAZNY_OD" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WAZNY_DO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KOD__1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_NAZWA1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_ORGAN1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_WAZNA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ID_BUFORA_" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ID_BUFORA1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ID_TECHNIC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="IIP_PRZEST" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="IIP_IDENTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="IIP_WERSJA" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_IIP" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_OPIS" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_SPS_KO" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ID_BUFOR_1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_POWI_1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_3" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_GEOMET" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_GEOM_1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SHAPE_LENG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SHAPE_AREA" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="REGON" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="RODZAJ" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_SJR_KO" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_POWIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KOD_JE" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_NAZWA_" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_ORGAN_" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_JOR_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="WERSJA_OD" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="WERSJA_DO" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="WAZNY_OD" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="WAZNY_DO" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KOD__1" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_NAZWA1" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_ORGAN1" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_WAZNA_" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ID_BUFORA_" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ID_BUFORA1" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ID_TECHNIC" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="IIP_PRZEST" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="IIP_IDENTY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="IIP_WERSJA" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_IIP" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_1" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_2" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_OPIS" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_SPS_KO" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ID_BUFOR_1" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_POWI_1" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_3" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_GEOMET" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_GEOM_1" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SHAPE_LENG" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SHAPE_AREA" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="REGON" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="RODZAJ" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;JPT_NAZWA_&lt;closeparen&gt; = $(Powiat)"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
+#!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="24"
+#!   TYPE="Reprojector"
+#!   VERSION="5"
+#!   POSITION="2788.965218652188 -646.88146881468811"
+#!   BOUNDING_RECT="2788.965218652188 -646.88146881468811 454 71"
+#!   ORDER="500000000000036"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22776"
+#! >
+#!     <OUTPUT_FEAT NAME="REPROJECTED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="band0.mean" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="band0.stdev" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4326"/>
+#!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_TOLERANCE" PARM_VALUE="0.0"/>
+#!     <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="27"
+#!   TYPE="Reprojector"
+#!   VERSION="5"
+#!   POSITION="2863.6563810740658 -1339.3865938659387"
+#!   BOUNDING_RECT="2863.6563810740658 -1339.3865938659387 454 71"
+#!   ORDER="500000000000036"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22776"
+#! >
+#!     <OUTPUT_FEAT NAME="REPROJECTED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="DEST" PARM_VALUE="EPSG:4326"/>
+#!     <XFORM_PARM PARM_NAME="INTERPOLATION_TYPE_NAME" PARM_VALUE="Nearest Neighbor"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_CELL_SIZE" PARM_VALUE="Preserve Cells"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_TOLERANCE" PARM_VALUE="0.0"/>
+#!     <XFORM_PARM PARM_NAME="SOURCE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Reprojector_3"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="32"
+#!   TYPE="Clipper"
+#!   VERSION="14"
+#!   POSITION="4618.7961879618806 -846.88346883468841"
+#!   BOUNDING_RECT="4618.7961879618806 -846.88346883468841 430 71"
+#!   ORDER="500000000000037"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22776"
+#! >
+#!     <OUTPUT_FEAT NAME="INSIDE"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="OUTSIDE"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="band0.mean" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="band0.stdev" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ADDRESSING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTACHGROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="ATTACHMENTTABLE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="BCC" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="BODY" PARM_VALUE="Proces&lt;space&gt;pobierania&lt;space&gt;przebieg&lt;u0142&gt;&lt;space&gt;pomyslnie"/>
-#!     <XFORM_PARM PARM_NAME="CC" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FROM" PARM_VALUE="$(Email)"/>
-#!     <XFORM_PARM PARM_NAME="SERVICE" PARM_VALUE="Generic SMTP"/>
-#!     <XFORM_PARM PARM_NAME="SERVICEGROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SMTP_CONNECTION" PARM_VALUE="HOST;localhost;PORT;25;ENCRYPTION;None;TIMEOUT;60;AUTHENTICATION;NO;USERNAME;&lt;Unused&gt;;PASSWORD;&lt;Unused&gt;;FME_CONTROLLER_QUERY_FILE;dependencies&lt;solidus&gt;Generic&lt;space&gt;SMTP.fme;FME_CONTROLLER_CHOICE;Generic&lt;space&gt;SMTP"/>
-#!     <XFORM_PARM PARM_NAME="SUBJECT" PARM_VALUE="dane"/>
-#!     <XFORM_PARM PARM_NAME="TO" PARM_VALUE="$(email_klienta)"/>
+#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="REMNANTS"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="gml_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_SJR_KO" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_POWIER" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KOD_JE" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_NAZWA_" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_ORGAN_" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_JOR_ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="WERSJA_OD" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="WERSJA_DO" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="WAZNY_OD" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="WAZNY_DO" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KOD__1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_NAZWA1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_ORGAN1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_WAZNA_" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="ID_BUFORA_" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="ID_BUFORA1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="ID_TECHNIC" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="IIP_PRZEST" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="IIP_IDENTY" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="IIP_WERSJA" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_IIP" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_2" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_OPIS" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_SPS_KO" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="ID_BUFOR_1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_POWI_1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_KJ_I_3" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_GEOMET" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="JPT_GEOM_1" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="SHAPE_LENG" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="SHAPE_AREA" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="REGON" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="RODZAJ" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="BOUNDARY_CASES" PARM_VALUE="INSIDE"/>
+#!     <XFORM_PARM PARM_NAME="CLEANING_TOLERANCE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="CLIPPED_ATTR" PARM_VALUE="_clipped"/>
+#!     <XFORM_PARM PARM_NAME="CLIPPERS_FIRST" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="CLIPPER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="INVALID_PARTS_HANDLING" PARM_VALUE="REJECT_WHOLE"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MEASURES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MISSING_M_MODE" PARM_VALUE="Linear Interpolation"/>
+#!     <XFORM_PARM PARM_NAME="MISSING_Z_MODE" PARM_VALUE="Planar Interpolation"/>
+#!     <XFORM_PARM PARM_NAME="MULTIPLE_CLIPPERS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="M_VAL_SOURCE" PARM_VALUE="CANDIDATE"/>
+#!     <XFORM_PARM PARM_NAME="OAN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OVERLAPPING_CLIPPERS" PARM_VALUE="CLIP_OUTSIDE"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_RASTER_EXTENTS" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_CELL_MODE" PARM_VALUE="CENTER"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Emailer"/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Clipper"/>
+#!     <XFORM_PARM PARM_NAME="Z_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="Z_VAL_SOURCE" PARM_VALUE="CANDIDATE"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="36"
+#!   TYPE="Inspector"
+#!   VERSION="5"
+#!   POSITION="6034.4353443534419 -1504.3888438884387"
+#!   BOUNDING_RECT="6034.4353443534419 -1504.3888438884387 454 71"
+#!   ORDER="500000000000041"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22776"
+#! >
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Inspector"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="34"
+#!   TYPE="Inspector"
+#!   VERSION="5"
+#!   POSITION="5499.393202645153 -753.2172208243361"
+#!   BOUNDING_RECT="5499.393202645153 -753.2172208243361 454 71"
+#!   ORDER="500000000000051"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22776"
+#! >
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Inspector_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="42"
+#!   TYPE="Inspector"
+#!   VERSION="5"
+#!   POSITION="4133.6198082588571 -1624.3888438884387"
+#!   BOUNDING_RECT="4133.6198082588571 -1624.3888438884387 454 71"
+#!   ORDER="500000000000052"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22776"
+#! >
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Inspector_3"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="39"
+#!   TYPE="Terminator"
+#!   VERSION="3"
+#!   POSITION="2815.4343370219085 -1104.5165476009022"
+#!   BOUNDING_RECT="2815.4343370219085 -1104.5165476009022 454 71"
+#!   ORDER="500000000000053"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22776"
+#! >
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Translation&lt;space&gt;Terminated"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="4"
+#!   IDENTIFIER="22"
 #!   SOURCE_NODE="2"
-#!   TARGET_NODE="3"
+#!   TARGET_NODE="21"
 #!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -1372,11 +1240,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="13"
+#!   IDENTIFIER="29"
 #!   SOURCE_NODE="7"
-#!   TARGET_NODE="9"
+#!   TARGET_NODE="24"
 #!   SOURCE_PORT_DESC="fo 0 SAMPLED"
-#!   TARGET_PORT_DESC="fi 0 Red"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1387,26 +1255,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="11"
+#!   IDENTIFIER="28"
 #!   SOURCE_NODE="8"
-#!   TARGET_NODE="9"
+#!   TARGET_NODE="27"
 #!   SOURCE_PORT_DESC="fo 0 SAMPLED"
-#!   TARGET_PORT_DESC="fi 1 Infrared"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="15"
-#!   SOURCE_NODE="9"
-#!   TARGET_NODE="14"
-#!   SOURCE_PORT_DESC="fo 0 Output"
-#!   TARGET_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1423,6 +1276,21 @@
 #!   SOURCE_PORT_DESC="fo 0 Output"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="33"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="32"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 1 CANDIDATE"
+#!   ENABLED="true"
 #!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
@@ -1432,9 +1300,24 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="19"
+#!   IDENTIFIER="43"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="42"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="2"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="37"
 #!   SOURCE_NODE="16"
-#!   TARGET_NODE="18"
+#!   TARGET_NODE="36"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -1447,11 +1330,116 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="6"
-#!   SOURCE_NODE="3"
+#!   IDENTIFIER="25"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="23"
+#!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="26"
+#!   SOURCE_NODE="23"
 #!   TARGET_NODE="5"
-#!   SOURCE_PORT_DESC="fo 0 &lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;JPT_NAZWA_&lt;lt&gt;closeparen&lt;gt&gt;&lt;lt&gt;space&lt;gt&gt;=&lt;lt&gt;space&lt;gt&gt;__Powiat_"
+#!   SOURCE_PORT_DESC="fo 0 PASSED"
 #!   TARGET_PORT_DESC="fi 0 Initiator"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="35"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="32"
+#!   SOURCE_PORT_DESC="fo 0 PASSED"
+#!   TARGET_PORT_DESC="fi 0 CLIPPER"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS="1540 -393 4506 -393"
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="30"
+#!   SOURCE_NODE="24"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
+#!   TARGET_PORT_DESC="fi 0 Red"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="31"
+#!   SOURCE_NODE="27"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="fo 0 REPROJECTED"
+#!   TARGET_PORT_DESC="fi 1 Infrared"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="38"
+#!   SOURCE_NODE="32"
+#!   TARGET_NODE="34"
+#!   SOURCE_PORT_DESC="fo 0 INSIDE"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="40"
+#!   SOURCE_NODE="7"
+#!   TARGET_NODE="39"
+#!   SOURCE_PORT_DESC="fo 1 NOT_SAMPLED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="41"
+#!   SOURCE_NODE="8"
+#!   TARGET_NODE="39"
+#!   SOURCE_PORT_DESC="fo 1 NOT_SAMPLED"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -2006,7 +1994,7 @@
 #!   BOUNDING_RECT="-8404.51833918794 687.90649194895514 3632.6462394726577 634.15846787500141"
 #!   STICKY="true"
 #!   COLOUR="0.69019607843137254,0.7803921568627451,0.28627450980392155,0.39215686274509803"
-#!   CONTENTS="24 18 220 21 106 104 19 103 "
+#!   CONTENTS="103 220 19 104 106 21 18 24 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2020,7 +2008,7 @@
 #!   BOUNDING_RECT="-8398.6220538099915 -38.338046202902092 3633.7065656890582 652.06173436734377"
 #!   STICKY="true"
 #!   COLOUR="0.0039215686274509803,0.45490196078431372,0.082352941176470587,0.39215686274509803"
-#!   CONTENTS="112 28 40 25 219 122 109 17 "
+#!   CONTENTS="109 112 40 122 219 28 17 25 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2034,7 +2022,7 @@
 #!   BOUNDING_RECT="-8404.51833918794 -739.54167586765038 3633.7065656890582 724.6135665507386"
 #!   STICKY="true"
 #!   COLOUR="0,0,0.80000000000000004,0.39215686274509803"
-#!   CONTENTS="39 221 183 119 31 38 37 121 120 243 30 113 "
+#!   CONTENTS="221 243 31 39 183 30 113 120 37 121 38 119 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2048,7 +2036,7 @@
 #!   BOUNDING_RECT="220.62880536082525 -230.91103091835373 3049.7105313518887 605.23820078346796"
 #!   STICKY="true"
 #!   COLOUR="0.51764705882352946,0.45490196078431372,0.78823529411764703,0.39215686274509803"
-#!   CONTENTS="111 179 34 107 27 23 22 33 116 118 117 35 "
+#!   CONTENTS="34 117 116 23 107 111 179 27 33 118 22 35 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2062,7 +2050,7 @@
 #!   BOUNDING_RECT="-7107.5371198508428 -835.53238645968781 1273.9628423681497 276"
 #!   STICKY="true"
 #!   COLOUR="0.30980392156862746,0.35294117647058826,0.792156862745098,0.39215686274509803"
-#!   CONTENTS="119 38 37 "
+#!   CONTENTS="37 38 119 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2076,7 +2064,7 @@
 #!   BOUNDING_RECT="-9216.4766226123938 797.90649194895514 5002.385341699719 2297.0617343673443"
 #!   STICKY="true"
 #!   COLOUR="0.70980392156862748,0.44313725490196076,0.70588235294117652,0.39215686274509803"
-#!   CONTENTS="103 240 28 119 241 202 38 26 113 104 39 221 219 18 181 109 19 37 24 40 122 243 110 183 224 220 106 206 112 121 120 25 30 239 31 21 17 29 "
+#!   CONTENTS="122 29 104 24 202 19 240 17 109 113 121 206 239 119 110 40 112 241 28 25 26 18 183 30 224 219 103 243 220 106 21 31 39 120 37 221 38 181 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2090,7 +2078,7 @@
 #!   BOUNDING_RECT="-4138.2785475312539 423.80560791909289 4108.978160114757 1849.7375237275421"
 #!   STICKY="true"
 #!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,1"
-#!   CONTENTS="66 196 45 126 46 36 249 148 67 42 186 47 223 228 145 147 226 48 185 238 195 105 146 20 227 124 127 44 229 178 68 69 65 230 "
+#!   CONTENTS="45 146 195 20 66 230 148 229 186 124 147 126 127 178 47 69 228 67 185 68 105 226 249 36 44 196 223 48 65 227 238 42 145 46 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2104,7 +2092,7 @@
 #!   BOUNDING_RECT="8224.4953955232977 458.33791671250037 2289.6284373038125 2116.6878335450019"
 #!   STICKY="true"
 #!   COLOUR="0.42352941176470588,0.16862745098039217,0.46666666666666667,1"
-#!   CONTENTS="6 41 123 191 9 14 209 13 184 11 207 213 211 203 210 218 3 5 12 212 4 8 2 215 15 216 214 217 10 7 56 "
+#!   CONTENTS="191 212 215 11 7 216 13 213 15 10 14 41 3 207 214 2 9 217 203 210 123 209 6 218 8 12 4 211 184 56 5 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2118,7 +2106,7 @@
 #!   BOUNDING_RECT="17.196536932705584 715.27069132490669 8121.5643176854019 1684.2130616020104"
 #!   STICKY="true"
 #!   COLOUR="0.20000000000000001,0.36078431372549019,0.51764705882352946,1"
-#!   CONTENTS="155 59 231 81 158 154 72 82 54 137 135 76 57 204 92 199 205 107 52 118 53 117 58 78 151 73 232 116 156 79 111 193 34 51 74 22 136 33 236 140 35 235 138 94 153 134 179 55 133 27 71 208 77 188 50 190 157 95 132 49 198 141 200 80 160 149 139 233 171 150 237 70 152 75 23 242 90 "
+#!   CONTENTS="59 133 236 82 34 80 200 204 151 235 139 205 135 233 188 150 55 81 136 52 149 33 141 49 78 160 90 111 171 154 72 199 179 73 242 156 232 158 137 92 190 157 118 54 155 74 193 53 132 231 50 94 27 140 76 51 116 79 117 23 71 75 58 152 208 77 35 237 107 134 95 153 57 70 138 22 198 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2132,7 +2120,7 @@
 #!   BOUNDING_RECT="31.685027104492377 -989.65109374816893 2684.7245374627655 500"
 #!   STICKY="true"
 #!   COLOUR="0.56470588235294117,0.52156862745098043,0.24313725490196078,1"
-#!   CONTENTS="60 64 144 61 234 143 63 194 62 142 "
+#!   CONTENTS="63 60 62 234 142 61 143 194 64 144 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2146,7 +2134,7 @@
 #!   BOUNDING_RECT="-3377.6022691733765 240.93934328366032 1408.3194914480878 727.79587890115909"
 #!   STICKY="true"
 #!   COLOUR="0.24313725490196078,0.40784313725490196,0.20784313725490197,1"
-#!   CONTENTS="68 66 147 146 69 67 196 "
+#!   CONTENTS="66 69 196 68 146 67 147 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2160,7 +2148,7 @@
 #!   BOUNDING_RECT="8224.4953955232977 1452.0630343803668 2121.976563280472 980.02164163369594"
 #!   STICKY="true"
 #!   COLOUR="0.47450980392156861,0.098039215686274508,0.098039215686274508,1"
-#!   CONTENTS="91 99 88 165 93 176 89 97 83 161 87 175 173 96 166 170 174 168 100 98 "
+#!   CONTENTS="161 99 97 98 100 93 170 89 168 83 166 165 176 174 91 87 173 96 88 175 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -7639,47 +7627,42 @@
 
 FME_PYTHON_VERSION 310
 ARCGIS_COMPATIBILITY ARCGIS_AUTO
-GUI IGNORE SourceDataset_SHAPEFILE_1,SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_1,SHAPEFILE_IN_ENCODING_SHAPEFILE_1,SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_1,SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_ADVANCED_SHAPEFILE_1,SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_1,SHAPEFILE_IN_READ_NUMERIC_PADDING_AS_SHAPEFILE_1,SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_1,SHAPEFILE_IN_USE_STRING_FOR_NUMERIC_STORAGE_SHAPEFILE_1,SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_1,SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_1,SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_1,SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_1,DestDataset_TIFF_1
+GUI IGNORE SourceDataset_SHAPEFILE_1,SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_1,SHAPEFILE_IN_ENCODING_SHAPEFILE_1,SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_1,SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_ADVANCED_SHAPEFILE_1,SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_1,SHAPEFILE_IN_READ_NUMERIC_PADDING_AS_SHAPEFILE_1,SHAPEFILE_IN_READ_BLANK_AS_SHAPEFILE_1,SHAPEFILE_IN_USE_STRING_FOR_NUMERIC_STORAGE_SHAPEFILE_1,SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_1,SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_1,SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_1,SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_1
 # ============================================================================
-DEFAULT_MACRO Email pdela@steudent.agh.edu.pl
+DEFAULT_MACRO Email dela.kontakt@gmail.com
 
-DEFAULT_MACRO Powiat krakowski
+DEFAULT_MACRO Powiat powiat Warszawa
 
-DEFAULT_MACRO hasło fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMsz1IEKKOHPGYSg18tC6R9SwS94QbX97WJEuiIno7E30oQa7gYImpW3mKtOdpCeulIEE8AhJUgElCPeBN4swIXKECKTaAPrIm5w8SEWRzaoOJZjMClL3ycUkyy4aEfarOrlEEAA5i00yKJc0lx18C3k6NgtO8goC0yf6djOJUiGJvoYKtmLo8h3hLzsBfaSqlqmlqovSXIOJlP27yljhc9otbtlTQIQCPUg3Y3R2I1hp521NYgBwKUXEApwca5EW4T76rxRKdxh3iVDqc+l/cOCOfxBdBI1qA47hAjcbxIBN51WvgacuPOUY4LBYsJL8B0cfiJIDK5t6azsBPd04fqDA/eX4JovzbvB)
+DEFAULT_MACRO pass fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszy0kiX/V90myIj79EBfnYEtkoZsuf2NLa8WpiCLEOc6LlSOcrQSXg+i5dZQhoRe6DxQrL4TuQIPDMUy2gh6GKR9/RDv5QKLWFrV+uQ3b2EoX5x7d/bN7ki7KwldgO/Nq74N+reaIXjDSfqjb80zms+lO+I+KnrY00a0QpRQpLcXofix4T1I1WUKdJ7+/Tah2SbHaeRTlN8sebXfQXBySuy+LXPff9QL6ybf854a5sMG3zTfgphwhRKTeIStbGQHtBB3ZI1gCnWLU2hZvmG7ygj4qSdPSTf7/ZSzstWXIZvlbgUD4XYoPAzOdLtJlaIXDsfL0OwjNmC9ZfRlhtv8TLVgT1lhB2pAll)
 
 DEFAULT_MACRO email_klienta dela.kontakt@gmail.com
 
-DEFAULT_MACRO zakrycie_chmur 1
+DEFAULT_MACRO zakrycie_chmur 20
 
-DEFAULT_MACRO data_początkowa 20230104000000
+DEFAULT_MACRO data_początkowa 20220501000000
 
-DEFAULT_MACRO data_koncowa 20230126000000
+DEFAULT_MACRO data_koncowa 20221216000000
 
 DEFAULT_MACRO SourceDataset_SHAPEFILE $(FME_MF_DIR)powiaty.shp
-
-DEFAULT_MACRO DestDataset_TIFF C:\Studia\Bazy danych\Bazy_danych_II_Pawel_Dela
 
 # ============================================================================
 INCLUDE [ if {{$(Email$encode)} == {}} { puts_real {Parameter 'Email' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Powiat$encode)} == {}} { puts_real {Parameter 'Powiat' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(hasło$encode)} == {}} { puts_real {Parameter 'hasło' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(pass$encode)} == {}} { puts_real {Parameter 'pass' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(email_klienta$encode)} == {}} { puts_real {Parameter 'email_klienta' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(zakrycie_chmur$encode)} == {}} { puts_real {Parameter 'zakrycie_chmur' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(data_początkowa$encode)} == {}} { puts_real {Parameter 'data_początkowa' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(data_koncowa$encode)} == {}} { puts_real {Parameter 'data_koncowa' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(SourceDataset_SHAPEFILE$encode)} == {}} { puts_real {Parameter 'SourceDataset_SHAPEFILE' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(DestDataset_TIFF$encode)} == {}} { puts_real {Parameter 'DestDataset_TIFF' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
 MULTI_READER_TYPE{0} SHAPEFILE
 MULTI_READER_KEYWORD{0} SHAPEFILE_1
 MULTI_READER_GEN_DIRECTIVES{0} ADVANCED,,SEARCH_ENVELOPE_MAXX,0,REPORT_BAD_GEOMETRY,No,_MERGE_SCHEMAS,YES,SHAPEFILE_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MINX,0,DONUT_DETECTION,ORIENTATION,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,ENCODING,fme-source-encoding,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,CLIP_TO_ENVELOPE,NO,SEARCH_ENVELOPE_MAXY,0,SEARCH_ENVELOPE_MINY,0,USE_STRING_FOR_NUMERIC_STORAGE,No,MEASURES_AS_Z,No,USE_SEARCH_ENVELOPE,NO,TRIM_PRECEDING_SPACES,Yes,READ_BLANK_AS,MISSING,READ_NUMERIC_PADDING_AS,ZERO
-WRITER_TYPE MULTI_WRITER
-MULTI_WRITER_DATASET_ORDER BY_ID
-MULTI_WRITER_FIRST_WRITER_ID 0
-MULTI_WRITER_TYPE{0} TIFF
-MULTI_WRITER_KEYWORD{0} TIFF_1
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
 #! END_WB_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "SHAPEFILE_1"
@@ -7713,7 +7696,7 @@ GUI STRING_OR_ENCODING SHAPEFILE_IN_ENCODING_SHAPEFILE_1 fme-source-encoding%UTF
 DEFAULT_MACRO SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_SHAPEFILE_1 STANDARD_TYPES
 SHAPEFILE_1_NUMERIC_TYPE_ATTRIBUTE_HANDLING "$(SHAPEFILE_IN_NUMERIC_TYPE_ATTRIBUTE_HANDLING_SHAPEFILE_1)"
 #Note: Using the search envelope requires the shape index files (.sbnand.sbx)
-DEFAULT_MACRO SHAPEFILE_IN_EXPOSE_ATTRS_GROUP_SHAPEFILE_1
+DEFAULT_MACRO SHAPEFILE_IN_EXPOSE_ATTRS_GROUP_SHAPEFILE_1 
 SHAPEFILE_1_EXPOSE_ATTRS_GROUP "$(SHAPEFILE_IN_EXPOSE_ATTRS_GROUP_SHAPEFILE_1)"
 # Include this file in source setting section to add native search envelope processing
 # Zero as a default means we don't do any search -- this makes workbench happier
@@ -7795,49 +7778,6 @@ SHAPEFILE_1_GENERATE_FME_BUILD_NUM 22776
 SHAPEFILE_1_DATASET "$(SourceDataset_SHAPEFILE_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
-MACRO WB_KEYWORD "TIFF_1"
-#! END_WB_HEADER
-#! START_DEST_HEADER TIFF TIFF_1
-# The following GUI lines prompt for a TIFF file to be used as the
-# the destination of the data.
-# The user input is stored in a macro, which is then used to define
-# the dataset to be written.
-#! END_DEST_HEADER
-#! START_WB_HEADER
-DEFAULT_MACRO DestDataset
-INCLUDE [ if {"$(DestDataset)" != ""} {                          \
- puts {DEFAULT_MACRO DestDataset_TIFF_1 $(DestDataset)}         \
- } ]
-#! END_WB_HEADER
-#! START_DEST_HEADER TIFF TIFF_1
-DEFAULT_MACRO DestDataset_TIFF_1 $(DestDataset_TIFF)
-GUI DIRNAME DestDataset_TIFF_1 Destination TIFF (Tagged Image File Format) Folder:
-DEFAULT_MACRO _TIFF_WRITER_WORLD_FILE_GENERATION_TIFF_1 yes
-DEFAULT_MACRO _TIFF_WRITER_CREATE_TILED_FILES_TIFF_1 no
-DEFAULT_MACRO _TIFF_WRITER_TILE_SIZE_X_TIFF_1
-DEFAULT_MACRO _TIFF_WRITER_TILE_SIZE_Y_TIFF_1
-DEFAULT_MACRO _TIFF_WRITER_COMPRESSION_METHOD_TIFF_1 none
-DEFAULT_MACRO _TIFF_WRITER_JPEG_COMPRESSION_LEVEL_TIFF_1 25
-DEFAULT_MACRO _TIFF_WRITER_DEFLATE_COMPRESSION_LEVEL_TIFF_1 6
-DEFAULT_MACRO _TIFF_WRITER_ZSTD_COMPRESSION_LEVEL_TIFF_1 9
-DEFAULT_MACRO _TIFF_WRITER_TAB_FILE_GENERATION_TIFF_1 no
-DEFAULT_MACRO _TIFF_WRITER_NUMBER_OF_BITS_PER_CELL_TIFF_1
-DEFAULT_MACRO _TIFF_WRITER_ENABLE_BIGTIFF_TIFF_1 no
-DEFAULT_MACRO _TIFF_WRITER_INTERLEAVING_TYPE_TIFF_1 BIP
-DEFAULT_MACRO _TIFF_WRITER_PHOTOMETRIC_INTERPRETATION_TIFF_1 Auto
-DEFAULT_MACRO _TIFF_WRITER_BYTE_ORDER_TIFF_1 machine
-DEFAULT_MACRO _TIFF_WRITER_CALCULATE_MINMAX_TIFFTAGS_TIFF_1 no
-DEFAULT_MACRO _TIFF_WRITER_GENERATE_PYRAMIDS_TIFF_1 no
-DEFAULT_MACRO _TIFF_WRITER_PYRAMID_NUM_LEVELS_TIFF_1
-DEFAULT_MACRO _TIFF_WRITER_PYRAMID_INTERPOLATION_TYPE_TIFF_1 NearestNeighbor
-DEFAULT_MACRO _TIFF_WRITER_PYRAMID_TILE_SIZE_TIFF_1 128
-DEFAULT_MACRO TIFF_OUT_COORDINATE_SYSTEM_GRANULARITY_TIFF_1 FEATURE
-TIFF_1_COORDINATE_SYSTEM_GRANULARITY "$(TIFF_OUT_COORDINATE_SYSTEM_GRANULARITY_TIFF_1)"
-# ============================================================================
-TIFF_1_GENERATE_FME_BUILD_NUM 22776
-TIFF_1_DATASET "$(DestDataset_TIFF_1)"
-#! END_DEST_HEADER
-#! START_WB_HEADER
 #! END_WB_HEADER
 #! END_HEADER
 
@@ -7854,8 +7794,7 @@ FME_NAMES_ENCODING UTF-8
 FME_BULK_MODE_THRESHOLD 2000
 LAST_SAVE_BUILD "FME 2022.2.1.0 (20221202 - Build 22776 - WIN64)"
 DEFAULT_MACRO DATASET_KEYWORD_SHAPEFILE_1 SHAPEFILE_1
-DEFAULT_MACRO DATASET_KEYWORD_TIFF_1 TIFF_1
-FME_PASSWORD_PARAMETER_LIST hasło
+FME_PASSWORD_PARAMETER_LIST pass
 # -------------------------------------------------------------------------
 
 SHAPEFILE_1_READER_META_ATTRIBUTES fme_feature_type
@@ -7863,12 +7802,19 @@ SHAPEFILE_1_READER_META_ATTRIBUTES fme_feature_type
 # -------------------------------------------------------------------------
 
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
-FME_BEGIN_PYTHON_ENC import<space>smtplib<comma><space>ssl<lf><lf>port<space>=<space>465<space><space>#<space>For<space>SSL<lf>password<space>=<space>$(hasło)<lf>#<space>Create<space>a<space>secure<space>SSL<space>context<lf>context<space>=<space>ssl.create_default_context<openparen><closeparen><lf><lf>with<space>smtplib.SMTP_SSL<openparen><quote>smtp.gmail.com<quote><comma><space>port<comma><space>context=context<closeparen><space>as<space>server:<lf><space><space><space><space>server.login<openparen><dollar><openparen>email<closeparen><comma><space>password<closeparen><lf><space><space><space><space><apos>hi<apos><lf>
+FME_BEGIN_PYTHON_ENC <lf>import<space>smtplib<comma><space>ssl<lf>from<space>unidecode<space>import<space>unidecode<lf><lf><lf>def<space>sender<openparen>email<comma><space>haslo<comma><space>email_klienta<comma><space>powiat<closeparen>:<lf><space><space><space><space><lf><space><space><space><space><lf><space><space><space><space>message<space>=<space>f<quote>Subject:<space>przetwarzanie<space>danych<space>dla<space>powiatu<space><opencurly>powiat<closecurly><backslash>n<quote><space><backslash><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space>f<quote>Drogi<space>uzytkowniku<space><opencurly>email_klienta<closecurly><comma><space>rozpoczeto<space>przetwarzanie<space>danych<space>NDVI<space>dla<space>powiatu<space><opencurly>powiat<closecurly><quote><space><space><space><lf><space><space><space><space>server<space>=<space>smtplib.SMTP_SSL<openparen><apos>smtp.googlemail.com<apos><comma><space>465<closeparen><lf><space><space><space><space>server.login<openparen>email<comma><space>haslo<closeparen><lf><space><space><space><space>server.sendmail<openparen>email<comma><space>email_klienta<comma><space>message<closeparen><lf><lf><lf>def<space>main<openparen><closeparen>:<lf><space><space><space><space>sender<openparen>FME_MacroValues<openbracket><apos>Email<apos><closebracket><comma><space>FME_MacroValues<openbracket><apos>pass<apos><closebracket><comma><space>FME_MacroValues<openbracket><apos>email_klienta<apos><closebracket><comma><space>FME_MacroValues<openbracket><apos>Powiat<apos><closebracket><closeparen><lf><lf>if<space>__name__<space>==<space><quote>__main__<quote>:<lf><space><space><space><space>main<openparen><closeparen>
+FME_END_PYTHON_ENC <lf>import<space>smtplib<comma><space>ssl<lf>from<space>unidecode<space>import<space>unidecode<lf><lf>def<space>sender<openparen>email<comma><space>haslo<comma><space>email_klienta<comma><space>powiat<closeparen>:<lf><space><space><space><space>message<space>=<space>f<quote>Subject:<space>przetwarzanie<space>danych<space>dla<space>powiatu<space><opencurly>powiat<closecurly><backslash>n<quote><space><backslash><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space>f<quote>Drogi<space>uzytkowniku<space><opencurly>email_klienta<closecurly><comma><space>zakonczono<space>przetwarzanie<space>danych<space>NDVI<space>dla<space>powiatu<space><opencurly>powiat<closecurly><quote><space><space><lf><lf><space><space><space><space>server<space>=<space>smtplib.SMTP_SSL<openparen><apos>smtp.googlemail.com<apos><comma><space>465<closeparen><lf><space><space><space><space>server.login<openparen>email<comma><space>haslo<closeparen><lf><space><space><space><space>server.sendmail<openparen>email<comma><space>email_klienta<comma><space>message<closeparen><lf><lf><lf>def<space>main<openparen><closeparen>:<lf><space><space><space><space>sender<openparen>FME_MacroValues<openbracket><apos>Email<apos><closebracket><comma><space>FME_MacroValues<openbracket><apos>pass<apos><closebracket><comma><space>FME_MacroValues<openbracket><apos>email_klienta<apos><closebracket><comma><space>FME_MacroValues<openbracket><apos>Powiat<apos><closebracket><closeparen><lf><lf>if<space>__name__<space>==<space><quote>__main__<quote>:<lf><space><space><space><space>main<openparen><closeparen>
 
 # -------------------------------------------------------------------------
 
 MACRO WORKSPACE_NAME cw_9
 MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
+MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
+MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
+MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
 # -------------------------------------------------------------------------
 SHAPEFILE_1_DEF powiaty   shapefile_type               shapefile_polygon   gml_id                       varchar(254)   JPT_SJR_KO                   varchar(254)   JPT_POWIER                   varchar(254)   JPT_KOD_JE                   varchar(254)   JPT_NAZWA_                   varchar(254)   JPT_ORGAN_                   varchar(254)   JPT_JOR_ID                   varchar(254)   WERSJA_OD                    varchar(254)   WERSJA_DO                    varchar(254)   WAZNY_OD                     varchar(254)   WAZNY_DO                     varchar(254)   JPT_KOD__1                   varchar(254)   JPT_NAZWA1                   varchar(254)   JPT_ORGAN1                   varchar(254)   JPT_WAZNA_                   varchar(254)   ID_BUFORA_                   varchar(254)   ID_BUFORA1                   varchar(254)   ID_TECHNIC                   varchar(254)   IIP_PRZEST                   varchar(254)   IIP_IDENTY                   varchar(254)   IIP_WERSJA                   varchar(254)   JPT_KJ_IIP                   varchar(254)   JPT_KJ_I_1                   varchar(254)   JPT_KJ_I_2                   varchar(254)   JPT_OPIS                     varchar(254)   JPT_SPS_KO                   varchar(254)   ID_BUFOR_1                   varchar(254)   JPT_ID                       varchar(254)   JPT_POWI_1                   varchar(254)   JPT_KJ_I_3                   varchar(254)   JPT_GEOMET                   varchar(254)   JPT_GEOM_1                   varchar(254)   SHAPE_LENG                   varchar(254)   SHAPE_AREA                   varchar(254)   REGON                        varchar(254)   RODZAJ                       varchar(254)
 # -------------------------------------------------------------------------
@@ -7880,11 +7826,12 @@ SHAPEFILE_1_MERGE_DEF SHAPEFILE_1::powiaty EXACT powiaty
 FACTORY_DEF * TeeFactory    FACTORY_NAME "powiaty_SHAPEFILE_1 Splitter"    INPUT FEATURE_TYPE powiaty    OUTPUT FEATURE_TYPE powiaty_SHAPEFILE_1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME { TestFilter_INPUT }    INPUT  FEATURE_TYPE powiaty_SHAPEFILE_1    OUTPUT FEATURE_TYPE TestFilter_INPUTLINE
-FACTORY_DEF {*} TestFactory FACTORY_NAME { TestFilter } INPUT FEATURE_TYPE TestFilter_INPUTLINE FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT PASSED_TEST_GROUP_OUTPUT FIRST TEST_GROUP TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>JPT_NAZWA_<closeparen>,TestFilter) = @EvaluateExpression(FDIV,STRING_ENCODED,$(Powiat$encode),TestFilter) ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1" OUTPUT PASSED_0 FEATURE_TYPE TestFilter_<at>Value<openparen>JPT_NAZWA_<closeparen><space>=<space>__Powiat_ OUTPUT FAILED FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter <lt>UNFILTERED<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Reprojector }    INPUT  FEATURE_TYPE powiaty_SHAPEFILE_1    OUTPUT { FEATURE_TYPE Reprojector_REPROJECTED         @Reproject("","EPSG:4326",NearestNeighbor,PreserveCells,Reprojector,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)          }
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "SentinelDownloader Initiator Input Collector"   INPUT FEATURE_TYPE TestFilter_<at>Value<openparen>JPT_NAZWA_<closeparen><space>=<space>__Powiat_   OUTPUT FEATURE_TYPE SentinelDownloader_Initiator
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { Tester }    INPUT  FEATURE_TYPE Reprojector_REPROJECTED    TEST { "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>JPT_NAZWA_<closeparen>,Tester)" = "@EvaluateExpression(FDIV,STRING_ENCODED,$(Powiat$encode),Tester)" ENCODED }    BOOLEAN_OPERATOR { OR }    COMPOSITE_TEST_EXPR { "<Unused>" }    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    OUTPUT { PASSED FEATURE_TYPE Tester_PASSED         }
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester PASSED Splitter"   INPUT FEATURE_TYPE Tester_PASSED   OUTPUT FEATURE_TYPE Tester_PASSED_0_M1wqjkih4e0=   OUTPUT FEATURE_TYPE Tester_PASSED_1_8t6d0F2OYOU=
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "SentinelDownloader Initiator Input Collector"   INPUT FEATURE_TYPE Tester_PASSED_0_M1wqjkih4e0=   OUTPUT FEATURE_TYPE SentinelDownloader_Initiator
 MACRO SentinelDownloader_WORKSPACE_NAME SentinelDownloader
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_TRANSFORMER_GROUP 
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_XFORMER_NAME SentinelDownloader
@@ -7892,19 +7839,19 @@ MACRO $(SentinelDownloader_WORKSPACE_NAME)_FME_USER_PARAM_PRIVATE_GRP
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_platform Sentinel-2
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_PARAMETER 
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_key_name pdela
-MACRO $(SentinelDownloader_WORKSPACE_NAME)_key_pw fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszkZlyARntRDtbGyKgwQrwcCnqZnvwi47PWM6Kj/aF4dphthKJOuslOiLV4IAnWbONUnKI6pgxQHpbwj9r7MSPezTFv7b3SYGqkUTG9AyMhOsuo5D+kaV1kTa98HrxcwyyTie3SD0owFTGBju9oZdj+1CjrOaagWPzmLV+E/MorGxOS0jlgYL2axeAmlJ5SoJFk+1IQte6YjHbmUsC1ETMCR5ZdQkQlSB5R7WhwjQtZ/BHQBLOsLEMX79iJxU7LUrL3i0mOlHWFF9ZeLttFOvRaT7uvrA5Y2MEwlNBfsXLd08bwqJ3UIFF1VYwYywb9is57+Sl+fBl2kRl9rlizwLkILx8w/GLXI5r)
+MACRO $(SentinelDownloader_WORKSPACE_NAME)_key_pw fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMszRUAiLJzGdj+JP2oqWwr4iU5oDo+FZ53nc8hnLKFxq/s5QCc9vNFSBKCQbDMdngpFzhfFRwN+Gayo/3yTIjcMMOYnzAjtPaeo+Clyk9f3FDpIgnzq6AmW/J0S9ERpdwznE242F8j5pm/qYHgMlCfS8LEToCqBikAkYx7oy5GrnXVjoxubRu3UaDZLWiQgFoCp5D+UEcFweFBsZvVHP5KooPGt6rPw6a3JhBoHN7/QB13NhXVs26xmx8jspECh7w+IMvkeR7Gg2LqY9kpZOuLm0b29HzpsVKytpJfyqrh1zxc/9lb09oyb7ilAEe232AhsFQpuP/LeeHYrggz78ecfDHg7XBO0lZoA)
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_PARAMETER_2 
-MACRO $(SentinelDownloader_WORKSPACE_NAME)_BEGIN 20220307
+MACRO $(SentinelDownloader_WORKSPACE_NAME)_BEGIN $(data_początkowa)
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_END $(data_koncowa)
-MACRO $(SentinelDownloader_WORKSPACE_NAME)_MOST_RECENT NO
-MACRO $(SentinelDownloader_WORKSPACE_NAME)_LEVEL Level 1C
-MACRO $(SentinelDownloader_WORKSPACE_NAME)_Band_Resolution All
+MACRO $(SentinelDownloader_WORKSPACE_NAME)_MOST_RECENT YES
+MACRO $(SentinelDownloader_WORKSPACE_NAME)_LEVEL Level 2A
+MACRO $(SentinelDownloader_WORKSPACE_NAME)_Band_Resolution 10m
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_CloudCover $(zakrycie_chmur)
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_SUB_DOC_NAME SentinelDownloader
 MACRO $(SentinelDownloader_WORKSPACE_NAME)_SUB_DOC_NAME SentinelDownloader
 DEFAULT_MACRO SentinelDownloader_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(SentinelDownloader_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(SentinelDownloader_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_Initiator1672832563 Input Splitter"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Initiator"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Initiator"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_Initiator1673249099 Input Splitter"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Initiator"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Initiator"
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} TextEncoderFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_TextEncoder }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Initiator"    ACTION { BASE64_ENCODE }    RESULT_ATTR { "_key_encoded" }    VALUE_TO_ENCODE { "@EvaluateExpression(FDIV,STRING_ENCODED,$($(SentinelDownloader_WORKSPACE_NAME)_key_name$encode):$($(SentinelDownloader_WORKSPACE_NAME)_key_pw$encode),$(SentinelDownloader_WORKSPACE_NAME)_TextEncoder)" }    OUTPUT { OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TextEncoder_OUTPUT"        }
 # -------------------------------------------------------------------------
@@ -7917,7 +7864,7 @@ MACRO OUTPUT_TEXT_FTYPE $(SentinelDownloader_WORKSPACE_NAME)_GeometryFilter_TEXT
 MACRO OUTPUT_INSTANCE_FTYPE not_selected
 Lookup $(SentinelDownloader_WORKSPACE_NAME)_GeometryFilter_RouterTable   ""  "not_selected"   fme_point $(OUTPUT_POINT_FTYPE)   fme_area $(OUTPUT_AREA_FTYPE)   fme_text $(OUTPUT_TEXT_FTYPE)
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_GeometryFilter_495dd2c8_7b56_406c_bd35_264c485106b62} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_GeometryFilter_bbb6db62_0d83_4e55_ac3f_70246cfec7c716} ]
 MACRO COLLECTION_HANDLING NOT_THIS_TIME
 MACRO INSTANCE_FILTERING *
 INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
@@ -7996,7 +7943,7 @@ FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAM
 FACTORY_DEF {*} SortFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_Sorter }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Tester_2_PASSED"    SORT_ALPHA_AS_UTF8 { YES }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    SORT_BY { date{3} NUMERIC ASCENDING }    OUTPUT { SORTED FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Sorter_SORTED"          }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_DateTimeConverter_2b120391_581f_4d4c_93f0_b7455c25e73c2} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_DateTimeConverter_fae71637_1479_4d0c_97b0_4a68cabb1ec216} ]
 DEFAULT_MACRO $(SentinelDownloader_WORKSPACE_NAME)_DateTimeConverter_EXPRESSION_LIST
 INCLUDE [    set repairInput {};    if {{YES} eq {YES}} {       set repairInput "<comma>repair";    };    set inFormat {FME|ISO};    if { {} ne {} } {       set inFormat {};       if { [string first "<quote>" $inFormat] != -1 } {          set inFormat [string map {"<quote>" "<backslash><quote>"} $inFormat];       };    };    set outFormat {%Y%m%d};    if { [string first "<quote>" $outFormat] != -1 } {       set outFormat [string map {"<quote>" "<backslash><quote>"} $outFormat];    };    set parmList {};    set attrs {date<opencurly>3<closecurly>};    foreach attr $attrs {       lappend parmList $attr;       set funcAttr $attr;       if { [string first "<quote>" $attr] != -1 }       {          set funcAttr [string map {"<quote>" "<backslash><quote>"} $attr];          append funcAttr "<quote>";          set funcAttr "<quote>$funcAttr";       };       lappend parmList <at>DateTimeFormat<openparen><at>DateTimeParse<openparen><at>Value<openparen>$funcAttr<closeparen><comma><quote>$inFormat<quote>$repairInput<closeparen><comma><quote>$outFormat<quote><closeparen>;    };    puts "MACRO $(SentinelDownloader_WORKSPACE_NAME)_DateTimeConverter_EXPRESSION_LIST [join $parmList { }]"; ]
 Tcl2 proc $(FME_UUID_SAFE)_DateTimeConverter {} {    set attrs {date<opencurly>3<closecurly>};    set decodedAttrs {};    set attrVals {};    set attrNulls {};    set attrMissings {};    foreach attr $attrs {       set decodedAttr [FME_DecodeText $attr];       lappend decodedAttrs $decodedAttr;       lappend attrVals [FME_GetAttribute $decodedAttr];       lappend attrNulls [FME_IsAttributeNull $decodedAttr];       lappend attrExists [FME_AttributeExists $decodedAttr];    };    FME_Execute EvaluateExpression ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV $($(SentinelDownloader_WORKSPACE_NAME)_DateTimeConverter_EXPRESSION_LIST) $(SentinelDownloader_WORKSPACE_NAME)_DateTimeConverter;    foreach attr $decodedAttrs oldAttrVal $attrVals oldAttrExists $attrExists oldAttrNull $attrNulls {       set newAttrVal [FME_GetAttribute $attr];       if {[string length $newAttrVal] == 0} {          if {{NO} eq {NO} || [string length $oldAttrVal] > 0} {             FME_SetAttribute fme_rejection_code "INVALID_INPUT";             break;          } elseif {!$oldAttrExists} {             FME_UnsetAttributes $attr;          } elseif {!$oldAttrNull} {             FME_SetAttribute $attr {};          };       }    }; }
@@ -8019,7 +7966,7 @@ FACTORY_DEF {*} HTTPFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAM
 FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_Tester_7 }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_HTTPCaller_6_Output"    TEST { "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response_body<closeparen>,$(SentinelDownloader_WORKSPACE_NAME)_Tester_7)" = true ENCODED }    BOOLEAN_OPERATOR { OR }    COMPOSITE_TEST_EXPR { "<Unused>" }    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    OUTPUT { PASSED FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Tester_7_PASSED"         }    OUTPUT { FAILED FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Tester_7_FAILED"         }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_5_290057f3_9ff6_40cc_afb3_85a07ee6a6932} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_5_c0c1340e_e811_4fa0_9372_70be3704f19716} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -8158,7 +8105,7 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_Terminator_5 }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_AttributeManager_2_OUTPUT"    TEST { "$(_WB_BYPASS_TERMINATION)" == Yes }    OUTPUT { PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"@EvaluateExpression(FDIV,STRING_ENCODED,Error<space>at<space>parsing<space>the<space>response<space>JSON.<lf>Error:<space><at>Value<openparen>_json_error<opencurly>0<closecurly>.message<closeparen><lf>FME<space>rejection<space>code:<space><at>Value<openparen>fme_rejection_code<closeparen>,$(SentinelDownloader_WORKSPACE_NAME)_Terminator_5)")       @SupplyAttributes(_wb_termination_xformer,"$(SentinelDownloader_WORKSPACE_NAME)_Terminator_5")       @SupplyAttributes(_wb_termination_feature,Yes) }    OUTPUT { FAILED FEATURE_TYPE * @Abort(ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,Error<space>at<space>parsing<space>the<space>response<space>JSON.<lf>Error:<space><at>Value<openparen>_json_error<opencurly>0<closecurly>.message<closeparen><lf>FME<space>rejection<space>code:<space><at>Value<openparen>fme_rejection_code<closeparen>,$(SentinelDownloader_WORKSPACE_NAME)_Terminator_5)") }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_4_eed2be05_b2c2_4d24_a45c_330e39ccbd8a2} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_4_52261482_3736_41ce_98ad_9dab6cb7bdcf16} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -8180,7 +8127,7 @@ FACTORY_DEF {*} TeeFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME
 FACTORY_DEF {*} ListFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_ListBuilder }    INPUT { FEATURE_TYPE $(SentinelDownloader_WORKSPACE_NAME)_ListBuilder_no_fme_type }    LIST_NAME { "_datelist{}" }    LIST_ATTRS_TO_INCLUDE { date }    LIST_ATTRS_TO_INCLUDE_MODE { SELECTED }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    OUTPUT { LIST FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_ListBuilder_OUTPUT"          }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_ListConcatenator_13bbb63b_f31c_4958_af1c_27c965e60bd02} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_ListConcatenator_c7f3838b_9ec6_4a24_9645_f18245021f6116} ]
 Tcl2 set $(FME_UUID_SAFE)__separator [FME_DecodeText {<space><amp><space>}];      regsub -all \"{}\" [FME_DecodeText {_datelist<opencurly><closecurly>.date}] [FME_DecodeText {<opencurly><backslash>d+<closecurly>}] $(FME_UUID_SAFE)__listPattern;      set $(FME_UUID_SAFE)__listPattern ^$$(FME_UUID_SAFE)__listPattern$;
 Tcl2 proc $(FME_UUID_SAFE)__Concatenate {} {   upvar \#0 $(FME_UUID_SAFE)__separator separator             $(FME_UUID_SAFE)__listPattern listPattern;   set allAttrs [lsort -dictionary [FME_AttributeNames]];   set keepEmptyParts [string equal {No} {No}];   set result {};   foreach attrName $allAttrs {     if {[regexp $listPattern $attrName]} {       set attrValue [FME_GetAttribute $attrName];       if {$keepEmptyParts || $attrValue != {}} {         lappend result $attrValue;       };     };   };   FME_SetAttribute {"_concatenated"} [join $result $separator]; }
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_ListConcatenator }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_ListBuilder_OUTPUT"    OUTPUT { FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_ListConcatenator_OUTPUT"         @Tcl2($(FME_UUID_SAFE)__Concatenate)          }
@@ -8191,7 +8138,7 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_FeatureMerger_<Rejected>" INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_FeatureMerger_<REJECTED>"  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SentinelDownloader_FeatureMerger<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_d225e081_8a81_4645_b0ca_f85b033e03802} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_fbe7ab2c_cfd4_4ba5_81ad_ee1f9ce1ad4b16} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -8211,7 +8158,7 @@ FACTORY_DEF * TeeFactory FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_HTTP
 FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_Tester }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_HTTPCaller_2_Output"    TEST { "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_http_status_code<closeparen>,$(SentinelDownloader_WORKSPACE_NAME)_Tester)" = 202 ENCODED }    BOOLEAN_OPERATOR { OR }    COMPOSITE_TEST_EXPR { "<Unused>" }    FEATURE_TABLE_SHIM_SUPPORT Yes    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    OUTPUT { PASSED FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Tester_PASSED"         }    OUTPUT { FAILED FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Tester_FAILED"         }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_2_1cf3b47a_b985_466d_8ab4_f77c10cd4f992} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_2_f6157940_f06e_4ca5_9f6c_ca1d40bc0fb316} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -8224,7 +8171,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_Lo
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_AttributeCreator_4 }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_Tester_FAILED"    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ATTR_ACTION { "" "error_msg" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;1;TEST <at>Value<openparen>_http_status_code<closeparen> = 503'Service<space>unavailable.<space>LTA<space>cannot<space>accept<space>new<space>requests<space>right<space>now.<space>Try<space>again<space>soon.'BOOL_OP;OR;COMPOSITE_TEST;1;TEST <at>Value<openparen>_http_status_code<closeparen> = 403'Request<space>forbidden.<space>Number<space>of<space>submissions<space>exceeds<space>allowed<space>user<space>quota.'BOOL_OP;OR;COMPOSITE_TEST;1;TEST <at>Value<openparen>_http_status_code<closeparen> = 500'Internal<space>server<space>error.'FME_NUM_CONDITIONS4___" }    OUTPUT { OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_AttributeCreator_4_OUTPUT"        }
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_3_4b4ac23c_a931_4ac0_a296_f7e56f8726a02} ]
+INCLUDE [ FME_CleanseFMEUUID {$(SentinelDownloader_WORKSPACE_NAME)_Logger_3_c6af8f4c_e577_4343_a532_93d4b7b5f28c16} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -8257,20 +8204,20 @@ FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAM
 # somesuch.
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF {*} TestFactory    FACTORY_NAME { $(SentinelDownloader_WORKSPACE_NAME)_Terminator }    INPUT  FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_GeometryFilter_<UNFILTERED>"    TEST { "$(_WB_BYPASS_TERMINATION)" == Yes }    OUTPUT { PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Translation<space>Terminated<space>because<space>none<space>of<space>the<space>input<space>parameters<space>was<space>either<space>a<space>point<comma><space>polygon<comma><space>or<space>text<space><openparen>WKT<closeparen><space>feature.")       @SupplyAttributes(_wb_termination_xformer,"$(SentinelDownloader_WORKSPACE_NAME)_Terminator")       @SupplyAttributes(_wb_termination_feature,Yes) }    OUTPUT { FAILED FEATURE_TYPE * @Abort(ENCODED,"Translation<space>Terminated<space>because<space>none<space>of<space>the<space>input<space>parameters<space>was<space>either<space>a<space>point<comma><space>polygon<comma><space>or<space>text<space><openparen>WKT<closeparen><space>feature.") }
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B011672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B01"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B01"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B021672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B02"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B02"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B031672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B03"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B03"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B041672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B04"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B04"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B051672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B05"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B05"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B061672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B06"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B06"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B071672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B07"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B07"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B081672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B08"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B08"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B8A1672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B8A"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B8A"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B091672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B09"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B09"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B101672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B10"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B10"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B111672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B11"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B11"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B121672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B12"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B12"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_TCI1672832563 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_TCI"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TCI"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B011673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B01"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B01"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B021673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B02"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B02"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B031673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B03"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B03"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B041673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B04"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B04"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B051673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B05"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B05"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B061673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B06"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B06"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B071673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B07"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B07"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B081673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B08"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B08"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B8A1673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B8A"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B8A"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B091673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B09"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B09"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B101673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B10"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B10"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B111673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B11"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B11"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_B121673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_B12"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_B12"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SentinelDownloader_WORKSPACE_NAME)_TCI1673249099 Output Collector"   INPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TestFilter_4_TCI"   OUTPUT FEATURE_TYPE "$(SentinelDownloader_WORKSPACE_NAME)_TCI"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(SentinelDownloader_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SentinelDownloader B01 Output Renamer/Nuker"   INPUT FEATURE_TYPE SentinelDownloader_B01
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SentinelDownloader B02 Output Renamer/Nuker"   INPUT FEATURE_TYPE SentinelDownloader_B02
@@ -8297,6 +8244,8 @@ FACTORY_DEF {*} SamplingFactory    FACTORY_NAME { Sampler }    COMMAND_PARM_EVAL
 # This way we behave nicely even if there are no output connections on the transformer. See PR#28886.
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Sampler_Sampled }    INPUT FEATURE_TYPE ___SAMPLED___    OUTPUT { FEATURE_TYPE Sampler_SAMPLED          }
 # -------------------------------------------------------------------------
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Reprojector_2 }    INPUT  FEATURE_TYPE Sampler_SAMPLED    OUTPUT { FEATURE_TYPE Reprojector_2_REPROJECTED         @Reproject("","EPSG:4326",NearestNeighbor,PreserveCells,Reprojector_2,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)          }
+# -------------------------------------------------------------------------
 # If we're doing LAST N features, then the multiplier comes in as 0.
 # If we're doing First N, multiplier is -1.
 # For RANDOM, we need to treat LAST N as if it was first N (i.e. have a -1)
@@ -8307,42 +8256,88 @@ FACTORY_DEF {*} SamplingFactory    FACTORY_NAME { Sampler_2 }    COMMAND_PARM_EV
 # This way we behave nicely even if there are no output connections on the transformer. See PR#28886.
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Sampler_2_Sampled }    INPUT FEATURE_TYPE ___SAMPLED___    OUTPUT { FEATURE_TYPE Sampler_2_SAMPLED          }
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "NDVICalculator Red Input Collector"   INPUT FEATURE_TYPE Sampler_SAMPLED   OUTPUT FEATURE_TYPE NDVICalculator_Red
-FACTORY_DEF * TeeFactory   FACTORY_NAME "NDVICalculator Infrared Input Collector"   INPUT FEATURE_TYPE Sampler_2_SAMPLED   OUTPUT FEATURE_TYPE NDVICalculator_Infrared
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Reprojector_3 }    INPUT  FEATURE_TYPE Sampler_2_SAMPLED    OUTPUT { FEATURE_TYPE Reprojector_3_REPROJECTED         @Reproject("","EPSG:4326",NearestNeighbor,PreserveCells,Reprojector_3,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)          }
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "NDVICalculator Red Input Collector"   INPUT FEATURE_TYPE Reprojector_2_REPROJECTED   OUTPUT FEATURE_TYPE NDVICalculator_Red
+FACTORY_DEF * TeeFactory   FACTORY_NAME "NDVICalculator Infrared Input Collector"   INPUT FEATURE_TYPE Reprojector_3_REPROJECTED   OUTPUT FEATURE_TYPE NDVICalculator_Infrared
 MACRO NDVICalculator_WORKSPACE_NAME NDVICalculator
 MACRO $(NDVICalculator_WORKSPACE_NAME)_TRANSFORMER_GROUP 
 MACRO $(NDVICalculator_WORKSPACE_NAME)_XFORMER_NAME NDVICalculator
 MACRO $(NDVICalculator_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
 MACRO $(NDVICalculator_WORKSPACE_NAME)_INDEXTYPE NDVI
 MACRO $(NDVICalculator_WORKSPACE_NAME)_SAVIADJUSTMENT 0.5
-MACRO $(NDVICalculator_WORKSPACE_NAME)_COLORIZE No Colorization
+MACRO $(NDVICalculator_WORKSPACE_NAME)_COLORIZE Blue-Yellow-Green Palette
 MACRO $(NDVICalculator_WORKSPACE_NAME)_GROUP_BY 
 INCLUDE_CUSTOM_TRANSFORMER_VER NDVICalculator:2
 FACTORY_DEF * TeeFactory   FACTORY_NAME "NDVICalculator Output Output Renamer/Nuker"   INPUT FEATURE_TYPE NDVICalculator_Output   OUTPUT FEATURE_TYPE NDVICalculator_Output
 FACTORY_DEF * TeeFactory   FACTORY_NAME "NDVICalculator <Rejected> Output Renamer/Nuker"   INPUT FEATURE_TYPE NDVICalculator_<Rejected>   OUTPUT FEATURE_TYPE NDVICalculator_<Rejected>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "NDVICalculator Output Splitter"   INPUT FEATURE_TYPE NDVICalculator_Output   OUTPUT FEATURE_TYPE NDVICalculator_Output_0_xhQaDmPk1XI=   OUTPUT FEATURE_TYPE NDVICalculator_Output_1_Z1bejfLPIxM=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "NDVICalculator Output Splitter"   INPUT FEATURE_TYPE NDVICalculator_Output   OUTPUT FEATURE_TYPE NDVICalculator_Output_0_xhQaDmPk1XI=   OUTPUT FEATURE_TYPE NDVICalculator_Output_1_Z1bejfLPIxM=   OUTPUT FEATURE_TYPE NDVICalculator_Output_2_EeNTd+yr9y4=
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME NDVICalculator_<Rejected> INPUT FEATURE_TYPE NDVICalculator_<Rejected>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, NDVICalculator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} RasterStatisticsFactory    FACTORY_NAME { RasterStatisticsCalculator }    INPUT  FEATURE_TYPE NDVICalculator_Output_1_Z1bejfLPIxM=    RASTER_LEVEL { BAND_ONLY }    RASTER_STATS { 0   MEAN   STDEV   }    OUTPUT { OUTPUT FEATURE_TYPE RasterStatisticsCalculator_OUTPUT          }    OUTPUT { <REJECTED> FEATURE_TYPE RasterStatisticsCalculator_<REJECTED>          }
+FACTORY_DEF {*} RasterStatisticsFactory    FACTORY_NAME { RasterStatisticsCalculator }    INPUT  FEATURE_TYPE NDVICalculator_Output_0_xhQaDmPk1XI=    RASTER_LEVEL { BAND_ONLY }    RASTER_STATS { 0   MEAN   STDEV   }    OUTPUT { <REJECTED> FEATURE_TYPE RasterStatisticsCalculator_<REJECTED>          }
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME RasterStatisticsCalculator_<Rejected> INPUT FEATURE_TYPE RasterStatisticsCalculator_<REJECTED>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, RasterStatisticsCalculator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-# Note -- the AttachmentTable has to have a SPACE as the first character so that we don't get the *bad*
-# FME Parser to start parsing a @ function call -- if @ is the first character, it will, and then we lose
-# our table elements :-(
-# The python later expects the first character to be a space so all is well.
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Emailer_CATCHER }    INPUT  FEATURE_TYPE RasterStatisticsCalculator_OUTPUT    OUTPUT { FEATURE_TYPE Emailer_READY       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       ___fme_emailer_service           "Generic SMTP"       ___fme_emailer_connection        "HOST;localhost;PORT;25;ENCRYPTION;None;TIMEOUT;60;AUTHENTICATION;NO;USERNAME;<Unused>;PASSWORD;<Unused>"       ___fme_emailer_from              "@EvaluateExpression(FDIV,STRING_ENCODED,$(Email$encode),Emailer)"       ___fme_emailer_to                "@EvaluateExpression(FDIV,STRING_ENCODED,$(email_klienta$encode),Emailer)"       ___fme_emailer_cc                ""       ___fme_emailer_bcc               ""       ___fme_emailer_subject           "dane"       ___fme_emailer_body              "Proces<space>pobierania<space>przebieg<u0142><space>pomyslnie"       ___fme_emailer_attachments       " "       ___fme_emailer_xformerName       "Emailer"   }
-FACTORY_DEF {*} PythonFactory    FACTORY_NAME { Emailer_CALLER }    INPUT { FEATURE_TYPE Emailer_READY }    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME fmepy_emailer.Emailer    OUTPUT { PYOUTPUT FEATURE_TYPE Emailer_PROCESSED }
-FACTORY_DEF {*} TestFactory    FACTORY_NAME { Emailer_ROUTER }    INPUT { FEATURE_TYPE Emailer_PROCESSED }    TEST &fme_rejection_code == ""    OUTPUT { FAILED FEATURE_TYPE Emailer_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)        }
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {Inspector} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
+FACTORY_DEF {*} InspectorFactory    FACTORY_NAME { Inspector_Prepper }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE RasterStatisticsCalculator_OUTPUT    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_ATTRIBUTE_PREFIX { Inspector }    RASTER_REDUCTION { NoReduction }    POINT_CLOUD_REDUCTION { NO_THINNING }    OUTPUT { RESULT FEATURE_TYPE __viewme__    }
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+FACTORY_DEF {*} RecorderFactory    FACTORY_NAME { Inspector_Recorder }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE { "$(VISUALIZER_FEATURE_FILE)" }    STORE_SCANNED_SCHEMA YES    NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA YES    CREATE_SPATIAL_INDEX { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    INSPECTOR { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    FSC_SCHEMA { fme_basename,varchar<openparen>200<closeparen>,band0.mean,real64,band0.stdev,real64 }    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+# -------------------------------------------------------------------------
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {Inspector_3} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
+FACTORY_DEF {*} InspectorFactory    FACTORY_NAME { Inspector_3_Prepper }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE NDVICalculator_Output_2_EeNTd+yr9y4=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_ATTRIBUTE_PREFIX { Inspector_3 }    RASTER_REDUCTION { NoReduction }    POINT_CLOUD_REDUCTION { NO_THINNING }    OUTPUT { RESULT FEATURE_TYPE __viewme__    }
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+FACTORY_DEF {*} RecorderFactory    FACTORY_NAME { Inspector_3_Recorder }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE { "$(VISUALIZER_FEATURE_FILE)" }    STORE_SCANNED_SCHEMA YES    NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA YES    CREATE_SPATIAL_INDEX { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    INSPECTOR { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    FSC_SCHEMA { fme_basename,varchar<openparen>200<closeparen> }    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+# -------------------------------------------------------------------------
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME Emailer_<Rejected> INPUT FEATURE_TYPE Emailer_<REJECTED>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, Emailer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { Terminator }    INPUT  FEATURE_TYPE Sampler_NOT_SAMPLED    INPUT  FEATURE_TYPE Sampler_2_NOT_SAMPLED    TEST { "$(_WB_BYPASS_TERMINATION)" == Yes }    OUTPUT { PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Translation<space>Terminated")       @SupplyAttributes(_wb_termination_xformer,"Terminator")       @SupplyAttributes(_wb_termination_feature,Yes) }    OUTPUT { FAILED FEATURE_TYPE * @Abort(ENCODED,"Translation<space>Terminated") }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} ClipperFactory    FACTORY_NAME { Clipper }    INPUT CLIPPER FEATURE_TYPE Tester_PASSED_1_8t6d0F2OYOU=    INPUT CANDIDATE FEATURE_TYPE NDVICalculator_Output_1_Z1bejfLPIxM=    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    MULTIPLE_CLIPPERS { YES }    CLIPPERS_FIRST { NO }    OVERLAPPING_CLIPPERS { CLIP_OUTSIDE }    INVALID_PARTS_HANDLING { REJECT_WHOLE }    Z_VAL_SOURCE { CANDIDATE }    MISSING_Z_MODE { PLANAR }    CONNECT_Z_MODE { <Unused> }    M_VAL_SOURCE { CANDIDATE }    MISSING_M_MODE { LINEAR }    CLEANING_TOLERANCE { AUTO }    CANDIDATE_ON_BOUNDARY { INSIDE }    PRESERVE_RASTER_EXTENTS { NO }    RASTER_CELL_MODE { CENTER }    CLIPPED_INDICATOR_ATTR { _clipped }    MERGE_CLIPPER_ATTRIBUTES { NO }    ATTR_ACCUM_MODE { "<Unused>" }    ATTR_CONFLICT_RES { "<Unused>" }    CLIPPER_PREFIX { "<Unused>" }    LIST_NAME { "<Unused>" }    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE { <Unused> }    OUTPUT { REJECTED FEATURE_TYPE Clipper_<REJECTED>         }
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME Clipper_<Rejected> INPUT FEATURE_TYPE Clipper_<REJECTED>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, Clipper<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {Inspector_2} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
+FACTORY_DEF {*} InspectorFactory    FACTORY_NAME { Inspector_2_Prepper }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Clipper_INSIDE    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_ATTRIBUTE_PREFIX { Inspector_2 }    RASTER_REDUCTION { NoReduction }    POINT_CLOUD_REDUCTION { NO_THINNING }    OUTPUT { RESULT FEATURE_TYPE __viewme__    }
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+FACTORY_DEF {*} RecorderFactory    FACTORY_NAME { Inspector_2_Recorder }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE { "$(VISUALIZER_FEATURE_FILE)" }    STORE_SCANNED_SCHEMA YES    NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA YES    CREATE_SPATIAL_INDEX { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    INSPECTOR { "$(VISUALIZER_CREATE_SPATIAL_INDEX)" }    FSC_SCHEMA { fme_basename,varchar<openparen>200<closeparen>,_clipped,char<openparen>3<closeparen> }    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC NDVICalculator_Output_0_xhQaDmPk1XI= TO TIFF __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>powiaty<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC __WB_BYPASS_TERMINATOR__ <at>Tcl2<openparen>FME_StatMessage<space>818062<space><opencurly><at>Value<openparen>_wb_termination_message<closeparen><space><openparen><at>Value<openparen>_wb_termination_xformer<closeparen><closeparen><closecurly><space>818063<closeparen> TO FME_GENERIC __WB_BYPASS_TERMINATOR__ __wb_out_feat_type__,__WB_BYPASS_TERMINATOR__ GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-TIFF_1_DEF powiaty   tiff_world_file_generation   yes   tiff_create_tiled_files      no   tiff_tile_size_x             ""   tiff_tile_size_y             ""   tiff_compression_method      none   tiff_jpeg_compression_level  25   tiff_deflate_compression_level 6   tiff_zstd_compression_level  9   tiff_tab_file_generation     no   tiff_number_of_bits_per_cell ""   tiff_enable_bigtiff          no   tiff_interleaving_type       BIP   tiff_photometric_interpretation Auto   tiff_byte_order              machine   tiff_calculate_minmax_tifftags no   tiff_pyramid_interpolation_type NearestNeighbor   tiff_pyramid_tile_size       128   tiff_generate_pyramids       no   gml_id                       char(254)   JPT_SJR_KO                   char(254)   JPT_POWIER                   char(254)   JPT_KOD_JE                   char(254)   JPT_NAZWA_                   char(254)   JPT_ORGAN_                   char(254)   JPT_JOR_ID                   char(254)   WERSJA_OD                    char(254)   WERSJA_DO                    char(254)   WAZNY_OD                     char(254)   WAZNY_DO                     char(254)   JPT_KOD__1                   char(254)   JPT_NAZWA1                   char(254)   JPT_ORGAN1                   char(254)   JPT_WAZNA_                   char(254)   ID_BUFORA_                   char(254)   ID_BUFORA1                   char(254)   ID_TECHNIC                   char(254)   IIP_PRZEST                   char(254)   IIP_IDENTY                   char(254)   IIP_WERSJA                   char(254)   JPT_KJ_IIP                   char(254)   JPT_KJ_I_1                   char(254)   JPT_KJ_I_2                   char(254)   JPT_OPIS                     char(254)   JPT_SPS_KO                   char(254)   ID_BUFOR_1                   char(254)   JPT_ID                       char(254)   JPT_POWI_1                   char(254)   JPT_KJ_I_3                   char(254)   JPT_GEOMET                   char(254)   JPT_GEOM_1                   char(254)   SHAPE_LENG                   char(254)   SHAPE_AREA                   char(254)   REGON                        char(254)   RODZAJ                       char(254)
+
+DEFAULT_MACRO FME_LAUNCH_VIEWER_APP NO
+FACTORY_DEF * CreationFactory    FACTORY_NAME VisualizerProcessor   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if {{$(FME_LAUNCH_VIEWER_APP)} == {YES}} {  if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; }; ")
+FACTORY_DEF * TeeFactory    FACTORY_NAME VisualizerCleaner   INPUT FEATURE_TYPE __NUKEME__
