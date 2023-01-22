@@ -1,0 +1,98 @@
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Current FME version: FME 2022.2.1.0 (20221202 - Build 22776 - WIN64)
+2023-01-22 15:03:29|   0.0|  0.0|WARN  |Failed to free sufficient memory to reach the process usage limit. To improve stability and performance please increase the memory available to FME. Available memory can be increased by adding physical RAM, increasing swap space, or closing other applications
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Student Edition (node locked-crc)
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Serial Number: Q34LDI8XG60LZDJJQF1Y
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Temporary License: 103 days left.
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Machine host name is: DESKTOP-NIL9CR6
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|OS Locale Name     : pl_PL
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1250
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME API version: '4.0 20220615'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Studia\Bazy danych\Bazy_danych_II_Pawel_Dela/'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'dodatkowe.fmw'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2022.2.1.0'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 19044)
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Platform: WIN64
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|System Status: 152.31 GB of disk space available in the FME temporary folder (C:\Users\Pdela\AppData\Local\Temp\wbrun_1674263205484_27260\fmetmp_f)
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|System Status: 15.88 GB of physical memory available
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|System Status: 63.50 GB of virtual memory available
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|START - ProcessID: 3616, peak process memory usage: 71656 kB, current process memory usage: 71656 kB
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/Studia/Bazy danych/Bazy_danych_II_Pawel_Dela\wb-xlate-1674396206738_27260' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `52419' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `63443'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\Pdela\AppData\Roaming\Safe Software\FME\'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\Pdela\Documents\FME\Formats
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Shared folders for transformers are : C:\Users\Pdela\AppData\Roaming\Safe Software\FME\Packages\22776-win64\transformers;C:\Program Files\FME\transformers;C:\Users\Pdela\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\Pdela\Documents\FME\CoordinateSystems
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\Pdela\Documents\FME\CoordinateSystemExceptions
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\Pdela\Documents\FME\CoordinateSystemGridOverrides
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\Pdela\Documents\FME\CsmapTransformationExceptions
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\Pdela\Documents\FME\TransformerCategories
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `C:\Studia\Bazy danych\Bazy_danych_II_Pawel_Dela'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\Pdela\AppData\Local\Temp\wbrun_1674263205484_27260\fmetmp_f', set from environment variable `FME_TEMP'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\Pdela\AppData\Local\Temp'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2023-01-22 15:03:29|   0.0|  0.0|WARN  |FME Configuration: Extremely low initial memory conditions detected. To improve stability and performance please increase the memory available to FME. Available memory can be increased by adding physical RAM, increasing swap space, or closing other applications
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Creating writer for format: NULL (Nothing)
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Loaded module 'NULL' from file 'C:\Program Files\FME\plugins/NULL.dll'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (4.0 20220615)
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Creating reader for format: 
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\Program Files\FME\plugins/Geometry_func.dll'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (4.0 20220615)
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20220615)
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Loaded module 'HTTPFactory' from file 'C:\Program Files\FME\plugins/HTTPFactory.dll'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME API version of module 'HTTPFactory' matches current internal version (4.0 20220615)
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Loaded module 'InspectorFactory' from file 'C:\Program Files\FME\plugins/InspectorFactory.dll'
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (4.0 20220615)
+2023-01-22 15:03:29|   0.0|  0.0|INFORM|Emptying factory pipeline
+2023-01-22 15:03:29|   0.0|  0.0|STATS |Creator_XML_Creator (CreationFactory): Created 1 features
+2023-01-22 15:03:29|   0.0|  0.0|STATS |Creator_Cloner (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-22 15:03:29|   0.0|  0.0|STATS |Creator_CREATED Brancher -1 4 (BranchingFactory): Branched 1 input feature -- 1 feature routed to the target factory, and 0 features routed to the fallback factory.
+2023-01-22 15:03:29|   0.0|  0.0|STATS |_CREATOR_BRANCH_TARGET (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-22 15:03:29|   0.2|  0.2|INFORM|HTTPCaller (HTTPFactory): [1]: Starting HTTP upload to 'api.mapbox.com'. Expected transfer size: 19927 bytes
+2023-01-22 15:03:29|   0.2|  0.0|INFORM|HTTPCaller (HTTPFactory): [1]: HTTP Upload: sent 19927 bytes
+2023-01-22 15:03:30|   0.6|  0.4|INFORM|HTTPCaller (HTTPFactory): [1]: Starting HTTP download from 'api.mapbox.com'. Expected transfer size: 783 bytes
+2023-01-22 15:03:30|   0.6|  0.0|INFORM|HTTPCaller (HTTPFactory): [1]: HTTP Download: received 783 bytes
+2023-01-22 15:03:30|   0.6|  0.0|INFORM|HTTPCaller (HTTPFactory): [1]: HTTP transfer summary (api.mapbox.com): status code: 200, download size: 783 bytes, DNS lookup time: 24 ms, total transfer time: 609 ms
+2023-01-22 15:03:30|   0.6|  0.0|INFORM|SystemCaller: Executing `curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -d "{ \"url\": \"http://tilestream-tilesets-production.s3.amazonaws.com/06/_pending/8gjf3xpmznd265c0huage7dlc/pdela\", \"tileset\": \"pdela.Waters\", \"name\": \"WATERS\"}" https://api.mapbox.com/uploads/v1/pdela?access_token=sk.eyJ1IjoicGRlbGEiLCJhIjoiY2xkN2N0ZnkzMWkxNzNwbW1hcWVieXd3ZyJ9.gtSJlDOCRmjiEHZfcleZMg'
+2023-01-22 15:03:30|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Pdela\AppData\Local\Temp\wb-inspectors-Rpwqvr\inspector.ffs'
+2023-01-22 15:03:30|   0.6|  0.0|STATS |SystemCaller (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-01-22 15:03:30|   0.6|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\Pdela\AppData\Local\Temp\wb-inspectors-Rpwqvr\inspector.ffs'
+2023-01-22 15:03:30|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\Pdela\AppData\Local\Temp\wb-inspectors-Rpwqvr\inspector.fsi'
+2023-01-22 15:03:30|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Pdela\AppData\Local\Temp\wb-inspectors-Rpwqvr\inspector.fsi'
+2023-01-22 15:03:30|   0.6|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2023-01-22 15:03:30|   0.6|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-01-22 15:03:30|   0.6|  0.0|STATS |VisualizerProcessor (CreationFactory): Created 1 features
+2023-01-22 15:03:30|   0.6|  0.0|STATS |VisualizerCleaner (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2023-01-22 15:03:30|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-22 15:03:30|   0.6|  0.0|STATS |                            Features Read Summary
+2023-01-22 15:03:30|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-22 15:03:30|   0.6|  0.0|STATS |==============================================================================
+2023-01-22 15:03:30|   0.6|  0.0|STATS |Total Features Read                                                          0
+2023-01-22 15:03:30|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-22 15:03:30|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-22 15:03:30|   0.6|  0.0|STATS |                           Features Written Summary
+2023-01-22 15:03:30|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-22 15:03:30|   0.6|  0.0|STATS |==============================================================================
+2023-01-22 15:03:30|   0.6|  0.0|STATS |Total Features Written                                                       0
+2023-01-22 15:03:30|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-01-22 15:03:30|   0.6|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-01-22 15:03:30|   0.6|  0.0|WARN  |-~                                                                             ~-
+2023-01-22 15:03:30|   0.6|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2023-01-22 15:03:30|   0.6|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2023-01-22 15:03:30|   0.6|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2023-01-22 15:03:30|   0.6|  0.0|WARN  |-~                                                                             ~-
+2023-01-22 15:03:30|   0.6|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-01-22 15:03:30|   0.6|  0.0|INFORM|Translation was SUCCESSFUL with 9 warning(s) (0 feature(s) output)
+2023-01-22 15:03:30|   0.6|  0.0|INFORM|FME Session Duration: 1.5 seconds. (CPU: 0.2s user, 0.4s system)
+2023-01-22 15:03:30|   0.6|  0.0|INFORM|END - ProcessID: 3616, peak process memory usage: 86952 kB, current process memory usage: 86864 kB
